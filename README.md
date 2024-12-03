@@ -7,7 +7,7 @@
 
 # My study archive 2024
 
-## ⛄️ December
+## 🎄 December
 <details>
   <summary>1st week</summary>
 
@@ -47,5 +47,12 @@
     - 확산 모델의 품질:  생성된 탈옥 사례의 다양성과 적합성
     - 생성된 탈옥 사례 수: 더 많은 사례가 더 강력한 방어로 이어짐
     </details>
-  
+    
+- 🗞️ [Motif 소개: Moreh의 고성능 오픈소스 한국어 LLM](https://moreh.io/blog/introducing-motif-a-high-performance-open-source-korean-llm-by-moreh-241202)
+  - Moreh에서 한국어 성능이 뛰어난 초거대 언어 모델(LLM) 'Llama3-Motif-102B'을 오픈소스로 공개
+    - 한국어 성능 강화를 위해 LlamaPro와 Masked Structure Growth(MSG) 등 최신 학습 기법을 활용해 개발
+  - KMMLU 벤치마크에서 GPT-4를 능가하는 성적을 기록하였으며, Hugging Face와 GitHub에서 접근 가능
+  - Llama 3 기반으로 MoAI 플랫폼을 활용하여 개발되었으며, 효율적 GPU 관리 및 모델 최적화 가능
+  - 향상된 한국어 처리 능력과 영어 성능을 동시에 제공
+
 </details>
