@@ -55,4 +55,27 @@
   - Llama 3 기반으로 MoAI 플랫폼을 활용하여 개발되었으며, 효율적 GPU 관리 및 모델 최적화 가능
   - 향상된 한국어 처리 능력과 영어 성능을 동시에 제공
 
+- 📜 [IST, ETH] [GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED TRANSFORMERS](https://arxiv.org/abs/2210.17323)
+  - 기존 GPT 모델의 한계 : 모델 크기가 방대하여 추론에 많은 GPU가 필요해 실용성이 떨어짐
+  - GPTQ: GPT모델의 높은 컴퓨팅 및 저장 비용 문제를 해결하기 위한 새로운 양자화 방법
+    <details>
+        <summary>주요 특징</summary>
+      
+      - 원샷 가중치 양자화: 한 번의 과정을 통해 모델의 가중치를 효율적으로 압축
+      - 1750억 개 파라미터를 가진 GPT 모델을 약 4시간 만에 양자화 가능
+      - 가중치당 비트 폭을 3~4비트로 줄여도 성능 저하가 거의 없음
+      - 기존 양자화 기법 대비 2배 이상 효율적
+    </details>
+    <details>
+        <summary>주요 성과 및 추론 속도 향상</summary>
+      
+      - 1750억 개 파라미터 모델도 단일 GPU로 처리 가능
+      - FP16 대비 추론 속도
+        - 고급 GPU(NVIDIA A100): 3.25배,
+        - 비용 효율적인 GPU(NVIDIA A6000): 4.5배 빨라짐
+      - 극한 양자화에서도 정확도 유지
+        - 가중치를 2비트 또는 3진수로 줄여도 합리적인 성능 유지 
+    </details>
+  - [Github](https://github.com/IST-DASLab/gptq)
+    
 </details>
