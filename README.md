@@ -77,5 +77,11 @@
         - 가중치를 2비트 또는 3진수로 줄여도 합리적인 성능 유지 
     </details>
   - [Github](https://github.com/IST-DASLab/gptq)
-    
+
+- 🗞️ [Genie 2: A large-scale foundation world model](https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/)
+  - Genie 2: 이미지 하나만으로 다양한 3D 환경을 생성하는 기반 세계 모델
+    - 사람 또는 AI 에이전트가 키보드와 마우스로 조작하며 상호 작용할 수 있는 무한한 가상 환경을 제공
+    - 물리 효과, 캐릭터 애니메이션, 객체 상호 작용 등을 모델링하여 현실적인 가상 세계를 생성하며, 실제 이미지를 기반으로 한 환경 생성도 가능
+    - AI 에이전트 훈련 및 평가에 유용한 다양한 환경을 빠르게 제작하는 데 활용
+
 </details>
