@@ -98,8 +98,44 @@
         <summary>주요 성과</summary>
           
       - SummEval 벤치마크를 활용한 집중 사례 연구 → CheckEval: 인간의 판단과 높은 상관관계를 보임
-      - 주석자 간 일관성(Inter-Annotator Agreement)가 매우 높음
+      - IAA(Inter-Annotator Agreement)가 매우 높음
       - 객관적이고 유연하며 정밀한 평가에 효과적임을 입증
     </details>
+
+    <details>
+        <summary>중요 개념</summary>
+      
+      - CheckEval: 평가의 명확성과 일관성을 높이기 위해 설계된 LLM 기반 평가 프레임워크
+      - Inter-Annotator Agreement (IAA): 평가자 간의 일치도를 측정하는 지표
+      - SummEval : 요약에 대한 다양한 평가 방법을 비교하는 벤치마크 데이터셋
+    </details>
+
+- 📜 [Google] [PaliGemma 2: A Family of Versatile VLMs for Transfer](https://arxiv.org/abs/2412.03555)
+  - PaliGemma 2: 기존 PaliGemma 모델을 기반으로 업그레이드된 VLM으로, Gemma 2 언어 모델 계열의 개선된 기능을 통합한 모델
+  - Gemma 2 언어 모델 계열(2B ~ 27B 파라미터)과 SigLIP-So400m 비전 인코더 통합
+
+    <details>
+        <summary>3가지 해상도(224px², 448px², 896px²)에서 다단계 훈련</summary>
+      
+      - 전이 학습 능력 강화, 세부 조정 가능
+      - 학습률, 작업 유형, 모델 크기, 해상도 등 전이 성능 영향 요소 분석
+    </details>
+
+    <details>
+        <summary>작업 범위 확장</summary>
+    
+      - OCR 관련 작업: 테이블 구조, 분자 구조, 악보 인식
+      - 세밀한 장기 캡션 생성, 방사선 보고서 작성
+      - 다양한 전이 작업에서 최첨단 성능(SOTA) 달성
+    </details>
+
+    <details>
+        <summary>중요 개념</summary>
+  
+      - Vision-Language Model (VLM): 이미지를 처리하는 비전 모델과 텍스트를 이해하는 언어 모델을 결합한 AI 모델
+      - 전이 학습(Transfer Learning): 이미 학습된 모델을 새로운 작업에 적응시키는 방법
+    </details>
+
+  - [HuggingFace](https://huggingface.co/papers/2412.03555), [Kaggle](https://www.kaggle.com/models/google/paligemma-2)
 
 </details>
