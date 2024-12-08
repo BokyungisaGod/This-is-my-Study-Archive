@@ -137,5 +137,35 @@
     </details>
 
   - [HuggingFace](https://huggingface.co/papers/2412.03555), [Kaggle](https://www.kaggle.com/models/google/paligemma-2)
+</details>
+  
+<details>
+  <summary>2nd week</summary>
+
+- 🧑🏻‍💻 [NVIDIA] [Content Moderation and Safety Checks with NVIDIA NeMo Guardrails](https://developer.nvidia.com/blog/content-moderation-and-safety-checks-with-nvidia-nemo-guardrails/)
+  - RAG application: 실시간으로 외부 데이터를 검색하고 LLM을 활용하여 동적인 콘텐츠를 생성
+    - 안전하고 신뢰할 수 있는 응답을 보장하기 위해 content moderation 필수적
+  - NVIDIA NeMo Guardrails: LLM의 입력 및 출력을 관리하는 toolkit/microservice
+
+     <details>
+        <summary>주요 기능</summary>
+       
+      - LlamaGuard
+         - 입력/출력에서 부적절한 콘텐츠 감지
+      - AlignScore
+         - 응답의 사실 검증(검색 데이터와 생성된 결과 비교)
+
+       - 기타 기능: 식별 정보(PII) 검출, 허위 정보 방지, 탈옥 감지 등
+    </details>
+
+    <details>
+        <summary>적용 방법</summary>
+
+      - NeMo Guardrails를 설치
+      - RAG 애플리케이션과 연동
+      - LlamaGuard 및 AlignScore 모델을 설정
+      - NeMo Guardrails의 구성 파일(config.yml)에 통합
+      - 보안 레이어를 구성하고 샘플 쿼리로 테스트
+    </details>
 
 </details>
