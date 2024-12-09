@@ -54,6 +54,7 @@
   - KMMLU 벤치마크에서 GPT-4를 능가하는 성적을 기록하였으며, Hugging Face와 GitHub에서 접근 가능
   - Llama 3 기반으로 MoAI 플랫폼을 활용하여 개발되었으며, 효율적 GPU 관리 및 모델 최적화 가능
   - 향상된 한국어 처리 능력과 영어 성능을 동시에 제공
+  - [테스트 해보기](https://model-hub.moreh.io/text)
 
 - 📜 [IST, ETH] [GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED TRANSFORMERS](https://arxiv.org/abs/2210.17323)
   - 기존 GPT 모델의 한계 : 모델 크기가 방대하여 추론에 많은 GPU가 필요해 실용성이 떨어짐
