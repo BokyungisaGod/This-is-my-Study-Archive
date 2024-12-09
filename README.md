@@ -1,7 +1,7 @@
 📜: Paper link
 🧑🏻‍💻: Developer blog & Github link
 🗞️: News
-📝: Study tip
+🤪: Interesting
 
 ---
 
@@ -25,7 +25,7 @@
     - quantization(양자화): 데이터를 더 작은 비트로 압축하는 과정
     </details>
   
-- 📝 https://chanmuzi.tistory.com/479
+- 🤪 https://chanmuzi.tistory.com/479
   - NLP, LLM 위주의 인공지능 최신 논문/뉴스 follow-up 팁
 
 - 📜 [RAPID RESPONSE: MITIGATING LLM JAILBREAKS WITH A FEW EXAMPLES](https://arxiv.org/abs/2411.07494)
@@ -169,4 +169,11 @@
       - 보안 레이어를 구성하고 샘플 쿼리로 테스트
     </details>
 
+- 🤪 [ElevenLabs](https://www.talktosanta.io/)
+- 🤪 [MicrosoftDesigner](https://designer.microsoft.com/design)
+- 🤪 [Docling](https://ds4sd.github.io/docling/)
+  - PDF, DOCX, PPTX 등 다양한 문서 형식을 읽어 Markdown 및 JSON 형식으로 변환하는 도구
+  - 페이지 레이아웃, 읽기 순서, 표 구조 등을 포함한 고급 PDF 문서 이해 기능과 🦙 LlamaIndex, 🦜🔗 LangChain과의 쉬운 통합 제공
+  - OCR 지원, CLI 제공 등 사용 편의성을 높였으며, 추후 방정식 및 코드 추출, 메타데이터 추출 기능 추가 예정
+ 
 </details>
