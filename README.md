@@ -182,7 +182,7 @@
   - DVC(Data Version Control): GitOps 원칙에 기반하여 대규모 데이터의 버전 관리 및 ML 모델링 프로세스의 재현 가능한 워크플로우 구축을 지원하는 오픈소스 플랫폼
   - [Github](https://github.com/iterative/dvc)
 
-- 🧑🏻‍💻 [Meta] [meta-llama/Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct)
+- 🧑🏻‍💻 [HuggingFace] [meta-llama/Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct)
   - Meta Llama 3.3: Meta가 개발한 70B 파라미터 규모의 다국어 지원 LLM으로, 사전 학습과 명령어 조정을 통해 다국어 대화, 자연어 생성, 코딩 지원 등 다양한 사용 사례에 최적화
     <details>
         <summary>모델 아키텍처</summary>
