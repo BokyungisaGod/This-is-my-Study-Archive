@@ -1,5 +1,5 @@
 📜: Paper link
-🧑🏻‍💻: Developer blog & Github link
+🧑🏻‍💻: Developer blog & Github link & HuggingFace
 🗞️: News
 🤪: Interesting
 
@@ -149,12 +149,12 @@
   - NVIDIA NeMo Guardrails: LLM의 입력 및 출력을 관리하는 toolkit/microservice
 
      <details>
-        <summary>주요 기능</summary>
+         <summary>주요 기능</summary>
        
-      - LlamaGuard
-         - 입력/출력에서 부적절한 콘텐츠 감지
-      - AlignScore
-         - 응답의 사실 검증(검색 데이터와 생성된 결과 비교)
+       - LlamaGuard
+          - 입력/출력에서 부적절한 콘텐츠 감지
+       - AlignScore
+          - 응답의 사실 검증(검색 데이터와 생성된 결과 비교)
 
        - 기타 기능: 식별 정보(PII) 검출, 허위 정보 방지, 탈옥 감지 등
     </details>
@@ -171,14 +171,33 @@
 
 - 🤪 [ElevenLabs](https://www.talktosanta.io/)
 
-- 🤪 [MicrosoftDesigner](https://designer.microsoft.com/design)
+- 🤪 [Microsoft] [MicrosoftDesigner](https://designer.microsoft.com/design)
 
-- 🧑🏻‍💻 [Docling](https://ds4sd.github.io/docling/)
+- 🧑🏻‍💻 [Docling] [Docling](https://ds4sd.github.io/docling/)
   - PDF, DOCX, PPTX 등 다양한 문서 형식을 읽어 Markdown 및 JSON 형식으로 변환하는 도구
   - 페이지 레이아웃, 읽기 순서, 표 구조 등을 포함한 고급 PDF 문서 이해 기능과 🦙 LlamaIndex, 🦜🔗 LangChain과의 쉬운 통합 제공
   - OCR 지원, CLI 제공 등 사용 편의성을 높였으며, 추후 방정식 및 코드 추출, 메타데이터 추출 기능 추가 예정
 
-- 🤪 [DVC](https://dvc.org/)
+- 🤪 [DVC] [DVC](https://dvc.org/)
   - DVC(Data Version Control): GitOps 원칙에 기반하여 대규모 데이터의 버전 관리 및 ML 모델링 프로세스의 재현 가능한 워크플로우 구축을 지원하는 오픈소스 플랫폼
   - [Github](https://github.com/iterative/dvc)
+
+- 🧑🏻‍💻 [Meta] [meta-llama/Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct)
+  - Meta Llama 3.3: Meta가 개발한 70B 파라미터 규모의 다국어 지원 LLM으로, 사전 학습과 명령어 조정을 통해 다국어 대화, 자연어 생성, 코딩 지원 등 다양한 사용 사례에 최적화
+    <details>
+        <summary>모델 아키텍처</summary>
+
+      - 트랜스포머 기반: 최적화된 트랜스포머 아키텍처를 활용한 자동 회귀 모델
+      - 명령어 조정: 감독 미세 조정(SFT)과 인간 피드백 기반 강화 학습(RLHF)을 통해 사용자의 도움 및 안전성 선호도에 맞게 조정됨
+    </details>
+
+    <details>
+        <summary>벤치마크</summary>
+    
+      - MMLU(CoT): 86.0% 정확도
+      - HumanEval: 88.4% 성공률
+      - MATH(CoT): 77.0% 정확도
+      - MGSM: 91.1% 정확도
+    </details>
+
 </details>
