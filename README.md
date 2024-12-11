@@ -200,4 +200,13 @@
       - MGSM: 91.1% 정확도
     </details>
 
+- 🧑🏻‍💻 [Upstage] [Solar Cookbook](https://github.com/UpstageAI/solar-prompt-cookbook)
+  - Solar에 대한 프롬프트 A-Z를 담아, 누구나 더 쉽게 다룰 수 있도록 돕는 Cookbook
+  - Small-Scale Model에 대한 Prompt Engineering의 인사이트를 공유하여, 보다 효과적으로 활용할 수 있도록 함
+  - 프롬프트 엔지니어링의 기본 구조부터 복잡한 프롬프트 체이닝, 환각 해결법까지 다룸
+
+  - [Solar_Prompt_Guide](https://github.com/studydev/Solar_Prompt_Guide)
+    - Upstage Cookbook의 Prompt를 빠르게 실습할 수 있게 만들어놓은 환경
+    - Upstage github repo를 fork 하여, GitHub의 CodeSpace 기반(가상 개발 컨테이너 환경)으로 필요한 몇 가지 환경 변수를 추가한 repo를 만들어놓음
+
 </details>
