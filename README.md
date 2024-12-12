@@ -231,4 +231,10 @@
 
   - 모델 개발 전 과정에서 자동화된 방법과 인간 피드백을 활용하여 편향성 평가 및 완화, 정확성 및 견고성 향상을 위한 다양한 테스트 및 벤치마크 진행, 적대적 공격에 대한 방어 및 워터마킹 기술 적용
   - 📜 [Amazon Nova Family 기술 보고서] [The Amazon Nova Family of Models: Technical Report and Model Card](https://assets.amazon.science/b0/2b/e74dd4f84f188701fd06792670e7/the-amazon-nova-family-of-models-technical-report-and-model-card.pdf)
+
+- 🧑🏻‍💻 [Google] [python-genai](https://github.com/googleapis/python-genai)
+  - Google Gen AI Python SDK: Google의 생성형 모델을 Python 애플리케이션에 통합할 수 있는 인터페이스 제공
+  - 현재는 초기 출시 단계! API가 변경될 수 있으므로 프로덕션 환경에서는 사용하지 않는 것이 좋음
+  - 텍스트 생성, 이미지 생성, 임베딩 등 다양한 기능 제공 및 비동기 처리 및 토큰 계산 기능 지원
+
 </details>
