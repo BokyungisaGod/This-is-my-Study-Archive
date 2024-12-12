@@ -222,4 +222,13 @@
     - 이미 오픈소스 커뮤니티에서 수천 개의 모델 병합에 활용되어 Open LLM Leaderboard 상위권의 강력한 모델들을 생성하는 데 기여
 
   - [Github](https://github.com/arcee-ai/mergekit)
+
+- 🧑🏻‍💻 [Amazon] [Amazon Nova and our commitment to responsible AI](https://www.amazon.science/blog/amazon-nova-and-our-commitment-to-responsible-ai)
+  - Amazon Nova → Amazon에서 만든 책임감 있는 AI 개발을 위해 8가지 핵심 원칙(개인정보 보호 및 보안, 안전, 공정성, 정확성 및 견고성, 설명 가능성, 제어 가능성, 거버넌스, 투명성 등)을 바탕으로 한 새로운 멀티 모달 기반 모델
+  - 이들을 제어하기 위해 SFT와 RLHF을 모두 사용하여 모델을 정렬
+    - SFT → 여러 언어로 단일 및 다중 턴 훈련 데모
+    - RLHF → 이전 평가의 예를 포함하여 인간의 선호도 데이터를 수집
+
+  - 모델 개발 전 과정에서 자동화된 방법과 인간 피드백을 활용하여 편향성 평가 및 완화, 정확성 및 견고성 향상을 위한 다양한 테스트 및 벤치마크 진행, 적대적 공격에 대한 방어 및 워터마킹 기술 적용
+  - 📜 [Amazon Nova Family 기술 보고서] [The Amazon Nova Family of Models: Technical Report and Model Card](https://assets.amazon.science/b0/2b/e74dd4f84f188701fd06792670e7/the-amazon-nova-family-of-models-technical-report-and-model-card.pdf)
 </details>
