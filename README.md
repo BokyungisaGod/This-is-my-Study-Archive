@@ -209,4 +209,17 @@
     - Upstage Cookbook의 Prompt를 빠르게 실습할 수 있게 만들어놓은 환경
     - Upstage github repo를 fork 하여, GitHub의 CodeSpace 기반(가상 개발 컨테이너 환경)으로 필요한 몇 가지 환경 변수를 추가한 repo를 만들어놓음
 
+- 📜 [Arcee, Florida, USA] [Arcee’s MergeKit: A Toolkit for Merging Large Language Models](https://arxiv.org/abs/2403.13257)
+  <details>
+      <summary>문제 상황</summary>
+    
+    - 특정 작업을 위해 사전 학습된 모델을 미세 조정하는 전이 학습의 발전으로 인해 수많은 작업별 특화 모델이 개발되었지만, 이들은 일반적으로 개별 작업에만 특화되어 있어 서로의 강점을 활용하지 못함
+  </details>
+
+  - MergeKit: 다수의 오픈소스 언어 모델을 효율적으로 통합하는 오픈소스 도구
+    - 추가 학습 없이 모델의 성능과 다양성을 향상시키는 모델 병합 전략 지원
+    - 다양한 하드웨어에서 사용 가능한 확장성 있는 프레임워크 제공
+    - 이미 오픈소스 커뮤니티에서 수천 개의 모델 병합에 활용되어 Open LLM Leaderboard 상위권의 강력한 모델들을 생성하는 데 기여
+
+  - [Github](https://github.com/arcee-ai/mergekit)
 </details>
