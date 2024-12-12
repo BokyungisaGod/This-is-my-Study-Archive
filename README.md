@@ -177,6 +177,8 @@
   - PDF, DOCX, PPTX 등 다양한 문서 형식을 읽어 Markdown 및 JSON 형식으로 변환하는 도구
   - 페이지 레이아웃, 읽기 순서, 표 구조 등을 포함한 고급 PDF 문서 이해 기능과 🦙 LlamaIndex, 🦜🔗 LangChain과의 쉬운 통합 제공
   - OCR 지원, CLI 제공 등 사용 편의성을 높였으며, 추후 방정식 및 코드 추출, 메타데이터 추출 기능 추가 예정
+  - [2023년 최신판 OCR 8가지 API 비교평가 테스트](https://devocean.sk.com/blog/techBoardDetail.do?ID=165524&boardType=techBlog)
+    - 다양한 OCR 서비스의 성능 및 속도를 비교 분석한 결과, Google Cloud Vision, Azure Document Intelligence, Upstage, Naver Clova 순으로 우수한 속도를 보임
 
 - 🤪 [DVC] [DVC](https://dvc.org/)
   - DVC(Data Version Control): GitOps 원칙에 기반하여 대규모 데이터의 버전 관리 및 ML 모델링 프로세스의 재현 가능한 워크플로우 구축을 지원하는 오픈소스 플랫폼
@@ -237,4 +239,5 @@
   - 현재는 초기 출시 단계! API가 변경될 수 있으므로 프로덕션 환경에서는 사용하지 않는 것이 좋음
   - 텍스트 생성, 이미지 생성, 임베딩 등 다양한 기능 제공 및 비동기 처리 및 토큰 계산 기능 지원
 
+- 
 </details>
