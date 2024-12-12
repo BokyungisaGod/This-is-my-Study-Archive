@@ -239,5 +239,20 @@
   - 현재는 초기 출시 단계! API가 변경될 수 있으므로 프로덕션 환경에서는 사용하지 않는 것이 좋음
   - 텍스트 생성, 이미지 생성, 임베딩 등 다양한 기능 제공 및 비동기 처리 및 토큰 계산 기능 지원
 
-- 
+- 📜 [NCSOFT][VARCO-VISION: Expanding Frontiers in Korean Vision-Language Models](https://arxiv.org/pdf/2411.19103)
+  - VARCO-VISION: 한국어와 영어를 모두 다룰 수 있는 이미지-텍스트 작업을 위해 설계된 오픈소스 VLM
+    - 기존 모델의 지식을 유지하면서 시각적 정보와 언어 정보를 효과적으로 통합할 수 있도록 새로운 단계별 학습 전략 채택
+  - 📊 5개의 한국어 평가 데이터셋 공개 → 4개의 폐쇄형 벤치마크, 1개의 개방형 벤치마크
+
+    <details>
+        <summary>주요 성과</summary>
+
+      - 유사 크기의 모델과 비교해 이중언어 이미지-텍스트 이해 및 생성 능력에서 뛰어난 성능 입증
+      - 다양한 기능 지원
+        - Grounding: 이미지 내 객체 인식 및 위치 추적
+        - Referring: 특정 객체를 지칭하는 작업
+        - OCR: 이미지에서 텍스트를 추출하는 작업
+    </details>
+
+  - 🧑🏻‍💻 [HuggingFace][NCSOFT/VARCO-VISION-14B-HF](https://huggingface.co/NCSOFT/VARCO-VISION-14B-HF)
 </details>
