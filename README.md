@@ -255,4 +255,13 @@
     </details>
 
   - 🧑🏻‍💻 [HuggingFace][NCSOFT/VARCO-VISION-14B-HF](https://huggingface.co/NCSOFT/VARCO-VISION-14B-HF)
+
+- 🧑🏻‍💻 [Google] [The next chapter of the Gemini era for developers](https://developers.googleblog.com/en/the-next-chapter-of-the-gemini-era-for-developers/)
+  - Gemini 2.0 Flash: 개발자의 workflow를 개선하는 코딩 에이전트와 몰입적이고 대화형 애플리케이션 제작을 지원하는 AI플랫폼
+    - 멀티모달 출력: 텍스트, 오디오, 이미지 통합 생성
+    - 실시간 스트리밍 API: 오디오, 비디오 입력 지원
+    - 도구 통합: Google 검색, 코드 실행 기능 지원 및 외부 도구와 연동 가능
+    - AI 코드 에이전트: Jules로 자동화된 버그 수정 및 코드 작성
+  - 현재는 실험 단계로 Gemini API를 통해 Google AI Studio 및 Vertex AI에서 사용 가능(내년 초 정식 출시)
+
 </details>
