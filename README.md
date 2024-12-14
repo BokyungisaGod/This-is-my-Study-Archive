@@ -239,7 +239,7 @@
   - 현재는 초기 출시 단계! API가 변경될 수 있으므로 프로덕션 환경에서는 사용하지 않는 것이 좋음
   - 텍스트 생성, 이미지 생성, 임베딩 등 다양한 기능 제공 및 비동기 처리 및 토큰 계산 기능 지원
 
-- 📜 [NCSOFT][VARCO-VISION: Expanding Frontiers in Korean Vision-Language Models](https://arxiv.org/pdf/2411.19103)
+- 📜 [NCSOFT] [VARCO-VISION: Expanding Frontiers in Korean Vision-Language Models](https://arxiv.org/pdf/2411.19103)
   - VARCO-VISION: 한국어와 영어를 모두 다룰 수 있는 이미지-텍스트 작업을 위해 설계된 오픈소스 VLM
     - 기존 모델의 지식을 유지하면서 시각적 정보와 언어 정보를 효과적으로 통합할 수 있도록 새로운 단계별 학습 전략 채택
   - 📊 5개의 한국어 평가 데이터셋 공개 → 4개의 폐쇄형 벤치마크, 1개의 개방형 벤치마크
@@ -263,5 +263,24 @@
     - 도구 통합: Google 검색, 코드 실행 기능 지원 및 외부 도구와 연동 가능
     - AI 코드 에이전트: Jules로 자동화된 버그 수정 및 코드 작성
   - 현재는 실험 단계로 Gemini API를 통해 Google AI Studio 및 Vertex AI에서 사용 가능(내년 초 정식 출시)
+
+- 🧑🏻‍💻 [NVIDIA] [LLaMA-Mesh:Unifying 3D Mesh Generation with Language Models](https://research.nvidia.com/labs/toronto-ai/LLaMA-Mesh/?linkId=100000318302360)
+  - LLaMA-Mesh: 텍스트를 기반으로 사전 학습된 LLM의 기능을 확장하여 3D Mesh를 생성할 수 있는 통합 모델
+
+    <details>
+        <summary>장점</summary>
+      
+      - 튜토리얼 같은 텍스트 소스에서 파생된 LLM에 내재된 공간적 지식 활용 가능
+      - 대화형 3D 생성 및 Mesh 이해 가능
+    </details>
+    <details>
+        <summary>SFT 데이터셋 구성</summary>
+
+      - 텍스트 프롬프트로 3D Mesh 생성
+      - 텍스트와 3D Mesh를 혼합한 출력 생성
+      - 3D Mesh를 이해하고 해석
+    </details>
+
+  - 📜 [Tsinghua Univ., NVIDIA] [LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models](https://arxiv.org/abs/2411.09595)
 
 </details>
