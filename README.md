@@ -282,5 +282,14 @@
     </details>
 
   - 📜 [Tsinghua Univ., NVIDIA] [LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models](https://arxiv.org/abs/2411.09595)
+</details>
 
+<details>
+  <summary>3rd week</summary>
+
+- 📜 [FAIR at Meta, 2UC San Diego] [Training Large Language Models to Reason in a Continuous Latent Space](https://arxiv.org/abs/2412.06769)
+  - LLM → 언어 공간이 항상 최적의 추론 방식을 제공하지는 않음
+  - Coconut(Chain of Continuous Thought): 자연어 대신 제약 없는 잠재 공간에서 LLM 추론의 가능성을 탐구하기 위해 제시한 새로운 패러다임
+    - 마지막 은닉 상태를 단어로 디코딩하지 않고, 다음 입력 임베딩으로 직접 활용해 추론 효율을 높임
+    - 연속적 사고 → 단일 경로에 의존X, 여러 대안의 다음 추론 단계를 인코딩해 BFS 기반 문제 해결 가능
 </details>
