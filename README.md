@@ -292,4 +292,16 @@
   - Coconut(Chain of Continuous Thought): 자연어 대신 제약 없는 잠재 공간에서 LLM 추론의 가능성을 탐구하기 위해 제시한 새로운 패러다임
     - 마지막 은닉 상태를 단어로 디코딩하지 않고, 다음 입력 임베딩으로 직접 활용해 추론 효율을 높임
     - 연속적 사고 → 단일 경로에 의존X, 여러 대안의 다음 추론 단계를 인코딩해 BFS 기반 문제 해결 가능
+   
+- 📜 [Maryland Univ., OpenAI] [The Prompt Report: A Systematic Survey of Prompting Techniques](https://arxiv.org/pdf/2406.06608)
+  - 프롬프트 → GenAI 시스템과의 상호작용을 위한 주요 도구, 연구 초기 단계로 인해 용어와 개념이 혼재되어 있음
+  - 목적: 프롬프트 기술의 분류 체계 구축, 주요 용어 정리 및 사용 사례 분석
+    <details>
+        <summary>성과</summary>
+
+      - 어휘: 33개의 주요 프롬프트 관련 용어 정의
+      - 텍스트 전용 프롬프트 기술의 분류 체계: 58가지
+      - 다른 양식의 프롬프트 기술: 40가지
+      - 자연어 prefix-prompting 관련 메타 분석 제시
+    </details>
 </details>
