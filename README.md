@@ -304,4 +304,15 @@
       - 다른 양식의 프롬프트 기술: 40가지
       - 자연어 prefix-prompting 관련 메타 분석 제시
     </details>
+
+- 🗞️ [Google] [구글, 텍스트 프롬프트 없이 이미지 생성하는 '위스크' 공개](https://www.aitimes.com/news/articleView.html?idxno=166297)
+  - 위스크(Whisk) → Google이 공개한 이미지 생성 AI
+    <details>
+          <summary>작동 방식</summary>
+
+      - 구글의 이미지 생성 모델 Imagen 3 기반
+      - 텍스트 프롬프트 대신 3가지 이미지(주제 이미지, 장면 이미지, 스타일 이미지)를 결합하여 새로운 이미지 생성
+      - 입력 이미지를 바탕으로 자동 생성된 텍스트 캡션을 활용해 이미지 생성
+    </details>
+  - [Whisk](https://labs.google/fx/tools/whisk/unsupported-country)
 </details>
