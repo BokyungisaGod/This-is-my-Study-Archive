@@ -322,5 +322,4 @@
    - 🗞️ ["구글의 비오 2, 소라에 압승"...테스터 비교 영상 속속 등장](https://www.aitimes.com/news/articleView.html?idxno=166379)
 
 - 📜 [NYU] [Self-Reflection Outcome is Sensitive to Prompt Construction](https://arxiv.org/abs/2406.10400)
-  - 
 </details>
