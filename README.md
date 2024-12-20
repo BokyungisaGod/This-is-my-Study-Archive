@@ -319,5 +319,8 @@
 - 🗞️ [Google] [Veo 2](https://deepmind.google/technologies/veo/veo-2/)
    - Veo 2: Google DeepMind에서 개발한 최첨단 비디오 생성 모델
    - 메타의 MovieGenBench 데이터셋 기반
-  - 🗞️ ["구글의 비오 2, 소라에 압승"...테스터 비교 영상 속속 등장](https://www.aitimes.com/news/articleView.html?idxno=166379)
+   - 🗞️ ["구글의 비오 2, 소라에 압승"...테스터 비교 영상 속속 등장](https://www.aitimes.com/news/articleView.html?idxno=166379)
+
+- 📜 [NYU] [Self-Reflection Outcome is Sensitive to Prompt Construction](https://arxiv.org/abs/2406.10400)
+  - 
 </details>
