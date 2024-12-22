@@ -332,3 +332,17 @@
         - 보수적인 프롬프트 설계를 통해 Self-Reflection의 정확도 향상을 입증
       </details>
   - [Github](https://github.com/Michael98Liu/mixture-of-prompts)
+ 
+- 🧑🏻‍💻 [LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct](https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct)
+  - EXAONE 3.5 → LG AI Research에서 개발한 이중언어(영어, 한국어) 생성 모델로 장문 처리 기능 지원(32K 토큰까지)
+  - TensorRT-LLM, vLLM 등 여러 추론 프레임워크 지원 → 다양한 환경에서 배포 및 활용 가능
+    <details>
+        <summary>한계</summary>
+   
+      - 편향된 반응을 보일 수 있음
+      - 최신 정보를 반영하지 않아 응답이 거짓/모순될 수 있음
+      - 의미적으로 잘못된 문장이 생성될 수 있음
+    </details>
+  - [Github](https://github.com/LG-AI-EXAONE/EXAONE-3.5), [Blog](https://www.lgresearch.ai/blog/view?seq=507)
+  - 📜 [LG AI Research] [EXAONE 3.5:Series of Large Language Models for Real-world Use Cases](https://arxiv.org/pdf/2412.04862)
+</details>
