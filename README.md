@@ -346,3 +346,17 @@
   - [Github](https://github.com/LG-AI-EXAONE/EXAONE-3.5), [Blog](https://www.lgresearch.ai/blog/view?seq=507)
   - 📜 [LG AI Research] [EXAONE 3.5:Series of Large Language Models for Real-world Use Cases](https://arxiv.org/pdf/2412.04862)
 </details>
+
+<details>
+  <summary>4th week</summary>
+
+- 🧑🏻‍💻 [OpenAI] [OpenAI o3 Breakthrough High Score on ARC-AGI-Pub](https://www.youtube.com/watch?v=SKBG1sqdyIU&ab_channel=OpenAI](https://arcprize.org/blog/oai-o3-pub-breakthrough))
+  - OpenAI의 o3가 ARC-AGI-Pub의 Semi-Private 평가 세트에서 75.7%라는 점수를 기록 (고성능 설정 → 87.5%)
+  - 기존 LLM의 한계인 테스트 시간에 지식을 재결합하는 능력 부족을 극복하여 자연어 프로그램 탐색을 통해 새로운 수준의 적응력과 일반화 능력을 보여줌
+    <details>
+        <summary>중요 개념</summary>
+   
+      - ARC-AGI: AI의 일반적인 추론 능력을 평가하기 위해 만들어진 데이터셋
+      - AGI(Artificial General Intelligence)
+    </details>
+</details>
