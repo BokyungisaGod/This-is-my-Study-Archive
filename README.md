@@ -20,9 +20,9 @@
     <details>
       <summary>중요 개념</summary>
       
-    - precision(정밀도): 숫자를 얼마나 정확하게 표현하는지의 정도
-    - scaling laws(스케일링 법칙): 모델의 크기와 성능 관계를 설명하는 규칙
-    - quantization(양자화): 데이터를 더 작은 비트로 압축하는 과정
+    - **precision(정밀도)**: 숫자를 얼마나 정확하게 표현하는지의 정도
+    - **scaling laws(스케일링 법칙)**: 모델의 크기와 성능 관계를 설명하는 규칙
+    - **quantization(양자화)**: 데이터를 더 작은 비트로 압축하는 과정
     </details>
   
 - 🧑🏻‍💻 https://chanmuzi.tistory.com/479
@@ -106,9 +106,9 @@
     <details>
         <summary>중요 개념</summary>
       
-      - CheckEval: 평가의 명확성과 일관성을 높이기 위해 설계된 LLM 기반 평가 프레임워크
-      - Inter-Annotator Agreement (IAA): 평가자 간의 일치도를 측정하는 지표
-      - SummEval : 요약에 대한 다양한 평가 방법을 비교하는 벤치마크 데이터셋
+      - **CheckEval**: 평가의 명확성과 일관성을 높이기 위해 설계된 LLM 기반 평가 프레임워크
+      - **Inter-Annotator Agreement (IAA)**: 평가자 간의 일치도를 측정하는 지표
+      - **SummEval** : 요약에 대한 다양한 평가 방법을 비교하는 벤치마크 데이터셋
     </details>
 
 - 📜 [Google] [PaliGemma 2: A Family of Versatile VLMs for Transfer](https://arxiv.org/abs/2412.03555)
@@ -133,8 +133,8 @@
     <details>
         <summary>중요 개념</summary>
   
-      - Vision-Language Model (VLM): 이미지를 처리하는 비전 모델과 텍스트를 이해하는 언어 모델을 결합한 AI 모델
-      - 전이 학습(Transfer Learning): 이미 학습된 모델을 새로운 작업에 적응시키는 방법
+      - **Vision-Language Model (VLM)**: 이미지를 처리하는 비전 모델과 텍스트를 이해하는 언어 모델을 결합한 AI 모델
+      - **전이 학습(Transfer Learning)**: 이미 학습된 모델을 새로운 작업에 적응시키는 방법
     </details>
 
   - [HuggingFace](https://huggingface.co/papers/2412.03555), [Kaggle](https://www.kaggle.com/models/google/paligemma-2)
@@ -356,7 +356,7 @@
     <details>
         <summary>중요 개념</summary>
    
-      - ARC-AGI: AI의 일반적인 추론 능력을 평가하기 위해 만들어진 데이터셋
+      - **ARC-AGI**: AI의 일반적인 추론 능력을 평가하기 위해 만들어진 데이터셋
       - AGI(Artificial General Intelligence)
     </details>
 
@@ -372,12 +372,39 @@
     <details>
         <summary>중요 개념</summary>
       
-      - SFT(Supervised Fine-Tuning): 사전 훈련된 언어 모델을 특정 작업이나 도메인에 맞게 조정하는 과정(지도 학습 기반 미세 조정)
-      - dense: 인공지능 모델의 아키텍처에서 매개변수가 고르게 분포되고 사용되는 구조
+      - **SFT(Supervised Fine-Tuning)**: 사전 훈련된 언어 모델을 특정 작업이나 도메인에 맞게 조정하는 과정(지도 학습 기반 미세 조정)
+      - **dense**: 인공지능 모델의 아키텍처에서 매개변수가 고르게 분포되고 사용되는 구조
         - 🧐 사용 이유: 모델의 일관성 있는 성능, 다양한 작업에서의 일반화를 보장하기 위함
-      - dense transformer: 각 모델 레이어가 동일한 매개변수로 구성되고, 모든 뉴런과 연결이 활성화된 상태에서 작동하는 전통적인 트랜스포머 아키텍처
+      - **dense transformer**: 각 모델 레이어가 동일한 매개변수로 구성되고, 모든 뉴런과 연결이 활성화된 상태에서 작동하는 전통적인 트랜스포머 아키텍처
         - 반대 개념: MoE(Mixture of Experts) 아키텍처는 일부 뉴런만 활성화
     </details>
   - [Github](https://github.com/ibm-granite/granite-3.1-language-models)
 
+- 🧑🏻‍💻 [HuggingFace] [nlpai-lab/KURE-v1](https://huggingface.co/nlpai-lab/KURE-v1)
+  - KURE-v1: BAAI/bge-m3 모델을 한국어 데이터로 미세 조정한 것으로, 공개된 한국어 검색 모델 중 최고 성능을 보임
+    - 1024차원, 최대 8192 토큰 길이 지원
+    - Recall, Precision, NDCG, F1 등의 지표에서 우수한 성능 기록
+    - 파인튜닝 방식: 다양한 한국어 문서 검색 데이터셋을 사용하여 학습 (CachedGISTEmbedLoss 활용)
+  - [Github](https://github.com/nlpai-lab/KURE)
+    <details>
+        <summary>중요 개념</summary>
+      
+      - **Recall(재현율)**: 실제 True인 것 중에서 모델이 True라고 예측한 것의 비율
+        - 실제 관련 문서 중에서 검색 모델이 얼마나 많이 찾아냈는지
+        - Recall = (검색된 관련 문서 수) / (전체 관련 문서 수)
+        - Recall 값이 높음 → 관련된 문서를 빠뜨리지 않고 잘 찾아낸다​
+      - **Precision(정밀도)**: 여러 번 측정하거나 계산하여 그 결과가 서로 얼만큼 가까운지를 나타내는 기준
+        - 검색된 문서 중에서 실제로 관련 있는 문서의 비율
+        - Precision= (검색된 관련 문서 수) / (검색된 전체 문서 수)
+        - Precision 값이 높음 → 검색된 문서들이 대부분 관련성이 있다
+      - **NDCG(Normalized Discounted Cumulative Gain)**: 모델이 예측한 순위를 반영한 측정 지표
+        - 검색 결과의 순서를 고려하여, 상위에 있는 검색 결과가 얼마나 관련성이 높은지 평가
+        - NDCG= (DCG) / (IDCG)
+          - DCG: 검색 결과 순서에 따라 가중치를 부여한 누적 점수
+          - IDCG: 최적의 순서에서 얻을 수 있는 최대 DCG 값
+        - NDCG 값이 높음 → 관련 문서가 상위에 많이 배치된다
+      - **F1**: Recall과 Precision의 조화 평균 (두 지표 간의 균형)
+        - F1= 2 × {(Precision x Recall)/(Precision + Recall)}
+        - F1 값이 높음 → Recall과 Precision 둘 다 우수하다
+    </details>
 </details>
