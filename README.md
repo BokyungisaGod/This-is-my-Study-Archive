@@ -359,4 +359,25 @@
       - ARC-AGI: AI의 일반적인 추론 능력을 평가하기 위해 만들어진 데이터셋
       - AGI(Artificial General Intelligence)
     </details>
+
+- 🧑🏻‍💻 [HuggingFace] [ibm-granite/granite-3.1-8b-instruct](https://huggingface.co/ibm-granite/granite-3.1-8b-instruct)
+  - Granite-3.1-8B-Instruct: 복잡한 장문 컨텍스트를 해결할 수 있도록 설계된 모델로, Granite-3.1-8B-Base에서 지도 학습, 강화 학습 기반 정렬, 모델 병합 등의 기술을 활용해 파인튜닝됨
+    <details>
+        <summary>적용 분야</summary>
+      
+      - 요약, 텍스트 분류/추출, 질의응답,RAG(검색 기반 생성), 코드 작업, 함수 호출,다국어 대화, 장문 컨텍스트 작업 등
+      - 모델 구조: 디코더 전용 dense 트랜스포머 (RoPE, SwiGLU, RMSNorm 등 포함)  
+      - 시퀀스 길이: 최대 128K 토큰  
+    </details>
+    <details>
+        <summary>중요 개념</summary>
+      
+      - SFT(Supervised Fine-Tuning): 사전 훈련된 언어 모델을 특정 작업이나 도메인에 맞게 조정하는 과정(지도 학습 기반 미세 조정)
+      - dense: 인공지능 모델의 아키텍처에서 매개변수가 고르게 분포되고 사용되는 구조
+        - 🧐 사용 이유: 모델의 일관성 있는 성능, 다양한 작업에서의 일반화를 보장하기 위함
+      - dense transformer: 각 모델 레이어가 동일한 매개변수로 구성되고, 모든 뉴런과 연결이 활성화된 상태에서 작동하는 전통적인 트랜스포머 아키텍처
+        - 반대 개념: MoE(Mixture of Experts) 아키텍처는 일부 뉴런만 활성화
+    </details>
+  - [Github](https://github.com/ibm-granite/granite-3.1-language-models)
+
 </details>
