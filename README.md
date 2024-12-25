@@ -407,4 +407,8 @@
         - F1= 2 × {(Precision x Recall)/(Precision + Recall)}
         - F1 값이 높음 → Recall과 Precision 둘 다 우수하다
     </details>
+
+- 🧑🏻‍💻 [Cosmograph](https://cosmograph.app/docs/cosmograph/Cosmograph%20Python/get-started-widget/)
+  - Cosmograph: 그래프 데이터셋 & 벡터 임베딩 시각화 프레임워크 (복잡한 데이터 관계를 시각화하여 데이터 분석 기능을 향상시킴)
+  - Anywidget 기반으로 Jupyter 환경과 원활하게 통합되어 대화형 그래프 제공
 </details>
