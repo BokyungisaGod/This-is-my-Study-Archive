@@ -411,4 +411,20 @@
 - 🧑🏻‍💻 [Cosmograph](https://cosmograph.app/docs/cosmograph/Cosmograph%20Python/get-started-widget/)
   - Cosmograph: 그래프 데이터셋 & 벡터 임베딩 시각화 프레임워크 (복잡한 데이터 관계를 시각화하여 데이터 분석 기능을 향상시킴)
   - Anywidget 기반으로 Jupyter 환경과 원활하게 통합되어 대화형 그래프 제공
+
+- 🧑🏻‍💻 [HuggingFace] [answerdotai/ModernBERT-large](https://huggingface.co/answerdotai/ModernBERT-large)
+  - ModernBERT: 2조 토큰의 영어 및 코드 데이터로 사전 훈련된, 최대 8,192 토큰의 긴 문맥을 처리할 수 있는 현대화된 양방향 인코더 전용 Transformer 모델
+    <details>
+        <summary>주요 특징</summary>
+
+      - RoPE (Rotary Positional Embeddings): 긴 문맥 지원 강화
+      - Local-Global Alternating Attention: 긴 입력 처리 효율성 향상
+      - Unpadding 및 Flash Attention: 빠른 추론 지원
+    </details>
+    <details>
+        <summary>활용 분야</summary>
+
+      - 긴 문서 처리: 검색, 분류, 대규모 코퍼스 내 의미 검색
+      - 코드 검색: 코드 검색 및 텍스트 + 코드 혼합 의미 검색
+    </details>
 </details>
