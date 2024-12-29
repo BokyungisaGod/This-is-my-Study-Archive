@@ -439,4 +439,10 @@
       - Super weights를 보존하고 다른 outliers를 클리핑하여, 단순한 round-to-nearest quantization로 최첨단 성능 달성 가능
       - 기존보다 더 큰 블록 크기에서도 효과적인 양자화 구현 가능 (양자화 기술의 한계 확장)
     </details>
+
+- 🧑🏻‍💻 [Philschmid][How to fine-tune open LLMs in 2025 with Hugging Face](https://www.philschmid.de/fine-tune-llms-in-2025?utm_source=substack&utm_medium=email)
+  - 2025년 기준 Hugging Face를 활용한 오픈 LLM 파인튜닝 방법을 설명해놓은 사이트
+    - QLoRA, Spectrum 등 최적화 기법과 분산 학습을 중점적으로 다룸
+    - 파인튜닝 전에 프롬프트 엔지니어링이나 기존 파인튜닝된 모델 활용 가능성을 평가하고, 효율적인 파인튜닝을 위해 QLoRA 또는 Spectrum기법을 활용할 것을 제안
+    - 다양한 하드웨어 및 DeepSpeed를 이용한 다중 GPU 분산 학습 환경 설정과 Flash Attention 및 Liger Kernels 등 최적화 전략을 통해 학습 시간을 단축하는 방법 제시
 </details>
