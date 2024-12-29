@@ -440,9 +440,15 @@
       - 기존보다 더 큰 블록 크기에서도 효과적인 양자화 구현 가능 (양자화 기술의 한계 확장)
     </details>
 
-- 🧑🏻‍💻 [Philschmid][How to fine-tune open LLMs in 2025 with Hugging Face](https://www.philschmid.de/fine-tune-llms-in-2025?utm_source=substack&utm_medium=email)
+- 🧑🏻‍💻 [Philschmid] [How to fine-tune open LLMs in 2025 with Hugging Face](https://www.philschmid.de/fine-tune-llms-in-2025?utm_source=substack&utm_medium=email)
   - 2025년 기준 Hugging Face를 활용한 오픈 LLM 파인튜닝 방법을 설명해놓은 사이트
     - QLoRA, Spectrum 등 최적화 기법과 분산 학습을 중점적으로 다룸
     - 파인튜닝 전에 프롬프트 엔지니어링이나 기존 파인튜닝된 모델 활용 가능성을 평가하고, 효율적인 파인튜닝을 위해 QLoRA 또는 Spectrum기법을 활용할 것을 제안
     - 다양한 하드웨어 및 DeepSpeed를 이용한 다중 GPU 분산 학습 환경 설정과 Flash Attention 및 Liger Kernels 등 최적화 전략을 통해 학습 시간을 단축하는 방법 제시
+
+- 🧑🏻‍💻 [LMArena] [WebDev Arena Leaderboard](https://web.lmarena.ai/leaderboard)
+  - WebDev Arena: LMArena가 개발한 웹 개발 AI 성능 벤치마크
+    - Claude 3.5 Sonnet이 1위, 다음으로 o1-mini, Gemini-Exp-1206 등이 상위권을 기록
+    - 순위표는 Arena Score, 95% 신뢰구간, 투표 수 등을 포함하여 각 모델의 성능을 상세히 비교
+    - 더 자세한 통계는 평균 승률, 모델 간 승리 비율, 대결 횟수 등의 추가 그래프를 통해 확인 가능
 </details>
