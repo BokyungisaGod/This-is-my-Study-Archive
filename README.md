@@ -25,7 +25,7 @@
     - **quantization(양자화)**: 데이터를 더 작은 비트로 압축하는 과정
     </details>
   
-- 🧑🏻‍💻 https://chanmuzi.tistory.com/479
+- 🧑🏻‍💻 [chanmuzi님 tistory](https://chanmuzi.tistory.com/479)
   - NLP, LLM 위주의 인공지능 최신 논문/뉴스 follow-up 팁
 
 - 📜 [RAPID RESPONSE: MITIGATING LLM JAILBREAKS WITH A FEW EXAMPLES](https://arxiv.org/abs/2411.07494)
@@ -345,6 +345,12 @@
     </details>
   - [Github](https://github.com/LG-AI-EXAONE/EXAONE-3.5), [Blog](https://www.lgresearch.ai/blog/view?seq=507)
   - 📜 [LG AI Research] [EXAONE 3.5:Series of Large Language Models for Real-world Use Cases](https://arxiv.org/pdf/2412.04862)
+ 
+- 🧑🏻‍💻 [BE_성하님 tistory] [DB Lock이란?(feat. Lock 종류, 블로킹, 데드락)](https://ksh-coding.tistory.com/121)
+  - DB Lock: 동시에 여러 트랜잭션이 데이터를 변경하는 것을 방지하여 데이터 무결성을 유지하는 메커니즘
+  - 공유 락(S Lock)과 배타 락(X Lock)이 있으며, 사용에 따라 Blocking 현상이나 Deadlock이 발생할 수 있음
+    - Blocking은 한 transaction이 다른 transaction이 lock을 해제할 때까지 기다리는 현상
+    - Deadlock은 두 개 이상의 transaction이 서로 상대방의 lock을 기다리며 영원히 진행되지 않는 상황
 </details>
 
 <details>
@@ -439,16 +445,61 @@
       - Super weights를 보존하고 다른 outliers를 클리핑하여, 단순한 round-to-nearest quantization로 최첨단 성능 달성 가능
       - 기존보다 더 큰 블록 크기에서도 효과적인 양자화 구현 가능 (양자화 기술의 한계 확장)
     </details>
+    <details>
+        <summary>중요 개념</summary>
+      
+      - **극단값 (Outliers)**: 다른 값들과 큰 차이를 보이는 데이터 포인트
+      - **Perplexity**: 언어 모델의 예측 품질을 측정하는 지표로, 낮을수록 예측 정확도가 높음을 의미
+      - **Zero-shot**: 학습되지 않은 작업에 대해 모델이 직접 일반화하여 수행하는 능력을 측정하는 평가 방식
+      - **Forward pass**: 모델이 입력 데이터를 통해 예측을 생성하는 과정, 파라미터의 활성화 값을 계산
+      - **Weight quantization**: 모델의 가중치를 정밀도를 낮춘 형식으로 표현해 메모리와 계산 자원을 절감하는 기술
+      - **Super weights**: 모델 성능에 결정적인 영향을 미치는 중요한 가중치 파라미터
+      - **Round-to-nearest quantization**: 가장 가까운 정밀도 수준으로 값을 반올림하는 간단한 양자화 방법
+        - **양자화(Quantization)**: 모델의 가중치나 활성화를 낮은 비트 정밀도로 변환하여 메모리 사용량과 계산 비용을 줄이는 기법, 모델의 성능 손실을 최소화하면서 경량화 및 최적화를 목표로 함
+    </details>
 
 - 🧑🏻‍💻 [Philschmid] [How to fine-tune open LLMs in 2025 with Hugging Face](https://www.philschmid.de/fine-tune-llms-in-2025?utm_source=substack&utm_medium=email)
   - 2025년 기준 Hugging Face를 활용한 오픈 LLM 파인튜닝 방법을 설명해놓은 사이트
     - QLoRA, Spectrum 등 최적화 기법과 분산 학습을 중점적으로 다룸
     - 파인튜닝 전에 프롬프트 엔지니어링이나 기존 파인튜닝된 모델 활용 가능성을 평가하고, 효율적인 파인튜닝을 위해 QLoRA 또는 Spectrum기법을 활용할 것을 제안
     - 다양한 하드웨어 및 DeepSpeed를 이용한 다중 GPU 분산 학습 환경 설정과 Flash Attention 및 Liger Kernels 등 최적화 전략을 통해 학습 시간을 단축하는 방법 제시
+    <details>
+        <summary>중요 개념</summary>
+
+      - **분산 학습 (Distributed Training)**: 모델 학습을 여러 GPU 또는 노드로 분산하여 처리 속도를 높이고, 대규모 데이터와 모델을 효율적으로 처리하는 학습 방법.
+      - **Fine-tuning**: 이미 학습된 모델을 특정 작업이나 데이터셋에 맞게 추가로 학습시켜 성능을 개선하는 과정
+      - **QLoRA (Quantized LoRA)**: 양자화된 모델에서 저렴한 학습 가능한 적응 계층(LoRA)을 활용하여 고성능 파인튜닝을 가능하게 하는 기법, 메모리와 계산 비용을 크게 절감
+      - **Spectrum**: 모델 학습 중 다양한 대역폭과 데이터 표현 방식을 최적화해 학습 효율성을 높이는 기법, 특히 분산 학습에서 자원 활용도 향상
+      - **Flash Attention**: GPU 메모리와 연산을 효율적으로 사용하여 Transformer 모델에서 Attention 연산 속도를 크게 향상시키는 최적화 기법
+      - **Liger Kernels**: 커널 수준에서 GPU 활용도를 극대화하도록 설계된 최적화 기술, 대규모 모델 학습 시 효율적인 연산 분배를 통해 학습 시간 단축
+    </details>
 
 - 🧑🏻‍💻 [LMArena] [WebDev Arena Leaderboard](https://web.lmarena.ai/leaderboard)
   - WebDev Arena: LMArena가 개발한 웹 개발 AI 성능 벤치마크
     - Claude 3.5 Sonnet이 1위, 다음으로 o1-mini, Gemini-Exp-1206 등이 상위권을 기록
     - 순위표는 Arena Score, 95% 신뢰구간, 투표 수 등을 포함하여 각 모델의 성능을 상세히 비교
     - 더 자세한 통계는 평균 승률, 모델 간 승리 비율, 대결 횟수 등의 추가 그래프를 통해 확인 가능
+   
+- 🧑🏻‍💻 [HuggingFace] [deepseek-ai/DeepSeek-V3-Base](https://huggingface.co/deepseek-ai/DeepSeek-V3-Base)
+  - DeepSeek-V3-Base: 685B 파라미터의 크기를 가진 강력한 MoE 언어 모델
+    - 각 토큰에 대해 37B 매개변수 활성화
+    - 효율적인 추론과 비용 절감을 위해 MLA, DeepSeekMoE 아키텍처 사용
+    <details>
+        <summary>주요 특징</summary>
+      
+      - 보조 손실 없이 부하 균형 유지
+      - 다중 토큰 예측(MTP) 학습 목표로 성능 강화
+      - FP8 혼합 정밀도 훈련을 통한 14.8조 토큰으로 사전 학습
+      - 효율적인 통신 설계로 훈련 비용과 시간 최소화
+      - NVIDIA, AMD GPU, Huawei Ascend NPU 등 다양한 하드웨어 지원
+      - SGLang, LMDeploy, TensorRT-LLM 등으로 로컬에서 실행 가능
+    </details>
+  - [Github](https://github.com/deepseek-ai/DeepSeek-V3)
+    <details>
+        <summary>중요 개념</summary>
+      
+      - **MoE (Mixture of Experts)**: 각 입력 토큰에 최적의 expert를 선택해 연산 부담 감소 및 성능 극대화
+      - **MLA (Multi-Level Activation)**: 계산 자원을 효율적으로 배분하고 학습 및 추론 성능을 최적화하는 기법
+      - **MTP (Multi-Token Prediction)**: 모델이 한 번에 여러 토큰을 예측하도록 학습, 모델 성능을 강화
+    </details>
 </details>
