@@ -4,8 +4,28 @@
 🤪: Interesting
 
 ---
+# My study archive 2025
 
-# My study archive 2024
+## 🎉 January
+<details>
+  <summary>1st week</summary>
+
+  - 🧑🏻‍💻 [instructkr] [retriever-simple-benchmark](https://github.com/instructkr/retriever-simple-benchmark)
+    - Instructkr팀이 제작한 retriever-simple-benchmark의 결과를 보여주는 GitHub 저장소
+    - 다양한 검색 시스템의 성능 비교를 위한 벤치마크 결과를 담고 있음
+      <details>
+          <summary>중요 개념</summary>
+        
+        - **retriever-simple-benchmark**: RAG에 필요한 리랭커를 평가하기 위해 설계된 가볍고 효율적인 벤치마크 프로젝트
+      </details>
+  - 🧑🏻‍💻 [ollama] [kwangsuklee/llama3.2-3B-Q8-korean](https://ollama.com/kwangsuklee/llama3.2-3B-Q8-korean)
+    - llama-3.2-3B-Q8-korean: 3.2B 파라미터를 가지는 한국어 모델로, Q8_0 quantization 방식 사용
+      - 모델 생성 과정: Hugging Face의 Bllossom/llama-3.2-Korean-Bllossom-3B 모델을 기반
+</details>
+
+---
+<details>
+  <summary>My study archive 2024</summary>
 
 ## 🎄 December
 <details>
@@ -502,4 +522,5 @@
       - **MLA (Multi-Level Activation)**: 계산 자원을 효율적으로 배분하고 학습 및 추론 성능을 최적화하는 기법
       - **MTP (Multi-Token Prediction)**: 모델이 한 번에 여러 토큰을 예측하도록 학습, 모델 성능을 강화
     </details>
+</details>
 </details>
