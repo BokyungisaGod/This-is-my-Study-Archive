@@ -18,17 +18,27 @@
         
         - **retriever-simple-benchmark**: RAG에 필요한 리랭커를 평가하기 위해 설계된 가볍고 효율적인 벤치마크 프로젝트
       </details>
+
   - 🧑🏻‍💻 [ollama] [kwangsuklee/llama3.2-3B-Q8-korean](https://ollama.com/kwangsuklee/llama3.2-3B-Q8-korean)
     - llama-3.2-3B-Q8-korean: 3.2B 파라미터를 가지는 한국어 모델로, Q8_0 quantization 방식 사용
       - 모델 생성 과정: Hugging Face의 Bllossom/llama-3.2-Korean-Bllossom-3B 모델을 기반
     - [Github](https://github.com/ollama/ollama)
-    [HuggingFace]
     - [HuggingFace] [Bllossom/llama-3.2-Korean-Bllossom-3B](https://huggingface.co/Bllossom/llama-3.2-Korean-Bllossom-3B)
       - 텍스트 기반의 한국어-영어 강화 언어모델
     - [HuggingFace] [Bllossom/llama-3.2-Korean-Bllossom-AICA-5B](https://huggingface.co/Bllossom/llama-3.2-Korean-Bllossom-AICA-5B)
       - upgrade ver.
       - 텍스트와 이미지 모두 처리 가능한 시각-언어모델
       - 특히 OCR, 표, 그래프 해석 등 시각 정보 처리에 최적화
+  
+  - 🧑🏻‍💻 [sarthakrastogi] [quality-prompts](https://github.com/sarthakrastogi/quality-prompts/tree/main)
+    - 58가지 프롬프트 기법을 구현한 라이브러리
+    - 사용자 질의와 관련된 소수의 예시만 검색하여 사용, 문맥 명확화 및 단계별 사고 과정을 통한 정확도 향상을 위한 기능(system2attention, tabular_chain_of_thought_prompting)제공
+      <details>
+          <summary>중요 개념</summary>
+        
+      - **System2Attention**: Transformer 모델의 Attention 메커니즘을 확장하여 논리적 추론과 복잡한 문제 해결을 지원하는 방식
+      - **Tabular Chain of Thought Prompting**: 테이블 데이터를 단계적으로 추론하도록 유도해 모델이 열과 행 간 관계를 분석하며 답을 도출하게 하는 방법
+      </details>
 </details>
 
 ---
