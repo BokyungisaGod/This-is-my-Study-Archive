@@ -21,6 +21,14 @@
   - 🧑🏻‍💻 [ollama] [kwangsuklee/llama3.2-3B-Q8-korean](https://ollama.com/kwangsuklee/llama3.2-3B-Q8-korean)
     - llama-3.2-3B-Q8-korean: 3.2B 파라미터를 가지는 한국어 모델로, Q8_0 quantization 방식 사용
       - 모델 생성 과정: Hugging Face의 Bllossom/llama-3.2-Korean-Bllossom-3B 모델을 기반
+    - [Github](https://github.com/ollama/ollama)
+    [HuggingFace]
+    - [HuggingFace] [Bllossom/llama-3.2-Korean-Bllossom-3B](https://huggingface.co/Bllossom/llama-3.2-Korean-Bllossom-3B)
+      - 텍스트 기반의 한국어-영어 강화 언어모델
+    - [HuggingFace] [Bllossom/llama-3.2-Korean-Bllossom-AICA-5B](https://huggingface.co/Bllossom/llama-3.2-Korean-Bllossom-AICA-5B)
+      - upgrade ver.
+      - 텍스트와 이미지 모두 처리 가능한 시각-언어모델
+      - 특히 OCR, 표, 그래프 해석 등 시각 정보 처리에 최적화
 </details>
 
 ---
