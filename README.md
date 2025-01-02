@@ -58,6 +58,10 @@
     - AI 기반으로 PDF 과학 논문을 번역하며, 수식, 차트, 목차, 주석 등의 서식을 최대한 유지
     - Google, DeepL, Ollama, OpenAI 등 다양한 번역 서비스 지원
     - 다국어 지원, 다중 스레드 번역, 사용자 정의 프롬프트, 출력 디렉토리 지정 등 다양한 옵션 제공
+
+  - 🧑🏻‍💻 [Ditto_GPT님 tistory] [범용 프롬프트 모음-Custom instructions 에 넣을 프롬프트 귀찮으면 그냥 이것만 쓰세요](https://cprompters.tistory.com/71)
+    - ChatGPT의 Custom Instructions에 넣을 수 있는 범용 프롬프트 모음
+      - 작업 우선순위 설정, 단계별 사고 과정 안내, 목표 명확화 및 세분화, 불필요한 설명 생략 등의 기능 포함
 </details>
 
 ---
