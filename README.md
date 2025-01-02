@@ -53,6 +53,11 @@
         - **Hybrid Search System**: 전통적 검색 기법과 신경망 기반 검색 기법을 결합한 검색 시스템
         - **BGE-M3**: 특정 임베딩 기반 검색 모델
       </details>
+
+  - 🧑🏻‍💻 [Byaidu] [PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
+    - AI 기반으로 PDF 과학 논문을 번역하며, 수식, 차트, 목차, 주석 등의 서식을 최대한 유지
+    - Google, DeepL, Ollama, OpenAI 등 다양한 번역 서비스 지원
+    - 다국어 지원, 다중 스레드 번역, 사용자 정의 프롬프트, 출력 디렉토리 지정 등 다양한 옵션 제공
 </details>
 
 ---
