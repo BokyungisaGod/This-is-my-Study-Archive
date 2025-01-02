@@ -39,6 +39,20 @@
       - **System2Attention**: Transformer 모델의 Attention 메커니즘을 확장하여 논리적 추론과 복잡한 문제 해결을 지원하는 방식
       - **Tabular Chain of Thought Prompting**: 테이블 데이터를 단계적으로 추론하도록 유도해 모델이 열과 행 간 관계를 분석하며 답을 도출하게 하는 방법
       </details>
+  - 🧑🏻‍💻 [Medium][Guidebook to the State-of-the-Art Embeddings and Information Retrieval](https://sigridjin.medium.com/rag-%EC%84%B8%EC%83%81%EC%9D%84-%ED%97%A4%EC%97%84%EC%B9%98%EB%8A%94-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%93%9C%EB%B6%81-3e90f515d800)
+    - 최신 임베딩 및 정보 검색 기술에 대한 가이드북
+    - 저자의 ColBERT와 Vespa 활용 실험 결과와 다양한 모델 평가, 하이브리드 검색 시스템의 장점 등을 다룸
+    - 단일 임베딩 모델의 일반화 성능 한계를 지적하며, BM25와 같은 전통적 검색 기법과의 결합을 통한 하이브리드 시스템의 효용성을 강조하고, BGE-M3 등 다양한 모델의 성능 비교 및 양자화, 최적화 기법 제시
+    - ColBERT를 활용한 해석 가능한 신경망 검색 구현 방법 소개, 토큰 단위 점수 확인을 통한 검색 결과의 신뢰도 향상 및 RAG 시스템 개선 방안 제시, 오픈소스 기반의 유연하고 효율적인 정보 검색 시스템 구축의 중요성 강조
+      <details>
+          <summary>중요 개념</summary>
+        
+        - **Embedding**: 데이터(텍스트, 이미지 등)를 고차원 공간에 벡터로 표현하는 기법
+        - **ColBERT**: 토큰 단위의 세밀한 유사도 계산을 지원하는 신경망 기반 검색 모델
+        - **BM25**: 텍스트 기반 검색을 위한 전통적 가중치 계산 알고리즘
+        - **Hybrid Search System**: 전통적 검색 기법과 신경망 기반 검색 기법을 결합한 검색 시스템
+        - **BGE-M3**: 특정 임베딩 기반 검색 모델
+      </details>
 </details>
 
 ---
