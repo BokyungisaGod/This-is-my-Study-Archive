@@ -62,6 +62,7 @@
   - 🧑🏻‍💻 [Ditto_GPT님 tistory] [범용 프롬프트 모음-Custom instructions 에 넣을 프롬프트 귀찮으면 그냥 이것만 쓰세요](https://cprompters.tistory.com/71)
     - ChatGPT의 Custom Instructions에 넣을 수 있는 범용 프롬프트 모음
       - 작업 우선순위 설정, 단계별 사고 과정 안내, 목표 명확화 및 세분화, 불필요한 설명 생략 등의 기능 포함
+  - 📜
 </details>
 
 ---
