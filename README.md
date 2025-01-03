@@ -62,7 +62,10 @@
   - 🧑🏻‍💻 [Ditto_GPT님 tistory] [범용 프롬프트 모음-Custom instructions 에 넣을 프롬프트 귀찮으면 그냥 이것만 쓰세요](https://cprompters.tistory.com/71)
     - ChatGPT의 Custom Instructions에 넣을 수 있는 범용 프롬프트 모음
       - 작업 우선순위 설정, 단계별 사고 과정 안내, 목표 명확화 및 세분화, 불필요한 설명 생략 등의 기능 포함
-  - 📜
+  - 📜 [NVIDIA, HuggingFace] [Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference](https://arxiv.org/abs/2412.13663)
+    - ModernBERT: 기존 BERT와 같은 인코더 전용 변환기 모델을 최적화하여 Pareto 개선(성능-크기 tradeoff)을 달성한 모델  
+    - 검색(단일 및 다중 벡터)과 분류 작업 등에서 뛰어난 평가 결과 기록, 코드 도메인에서도 검증됨  
+    - 빠른 속도, 메모리 효율성, 일반 GPU에서의 추론에 최적화
 </details>
 
 ---
