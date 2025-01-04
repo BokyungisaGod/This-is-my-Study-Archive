@@ -65,8 +65,8 @@
 
   - 📜 [NVIDIA, HuggingFace] [Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference](https://arxiv.org/abs/2412.13663)
     - ModernBERT: 기존 BERT와 같은 인코더 전용 변환기 모델을 최적화하여 Pareto 개선(성능-크기 tradeoff)을 달성한 모델  
-    - 검색(단일 및 다중 벡터)과 분류 작업 등에서 뛰어난 평가 결과 기록, 코드 도메인에서도 검증됨  
-    - 빠른 속도, 메모리 효율성, 일반 GPU에서의 추론에 최적화
+      - 검색(단일 및 다중 벡터)과 분류 작업 등에서 뛰어난 평가 결과 기록, 코드 도메인에서도 검증됨  
+      - 빠른 속도, 메모리 효율성, 일반 GPU에서의 추론에 최적화
 
   - 🧑🏻‍💻 [루닥스님 tistory] [langgraph-ReAct AgentExecutor in LangGraph](https://rudaks.tistory.com/451)
     - Langchain과 Langgraph를 활용하여 서울 날씨 정보를 얻고 3배수하는 ReAct Agent를 만드는 과정을 설명
@@ -93,7 +93,12 @@
 
 - 🧑🏻‍💻 [microsoft] [markitdown](https://github.com/microsoft/markitdown)
   - MarkItDown: PDF, PowerPoint, Word, Excel 등 다양한 파일 형식을 Markdown으로 변환하는 파이썬 기반 유틸리티
-  - 이미지, 오디오 파일 지원 및 LLM을 활용한 이미지 설명 기능 제공, 여러 파일을 일괄 처리하는 기능 제공
+    - 이미지, 오디오 파일 지원 및 LLM을 활용한 이미지 설명 기능 제공, 여러 파일을 일괄 처리하는 기능 제공
+
+- [Msty] [The easiest way to use local and online AI models](https://msty.app/)
+  - Msty: 로컬 및 온라인 AI 모델을 간편하게 사용할 수 있는 애플리케이션
+    - 다양한 모델(Hugging Face, Ollama, Open Router 등)과의 호환성 제공
+    - 개인 정보 보호 및 안정성 보장(오프라인 우선 설계), 병렬 대화 기능, 지식 스택 기능
 </details>
 
 ---
