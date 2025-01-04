@@ -84,7 +84,16 @@
       - 전문가 정책 제약 알고리즘과 LLM 상호작용으로 성능 및 효율 극대화
     - [Github](https://github.com/bitmobility/LGDRL)
     - 📜 [Large Language Model guided Deep Reinforcement Learning for Decision Making in Autonomous Driving](https://arxiv.org/abs/2412.18511)
+      <details>
+          <summary>중요 개념</summary>
+        
+        - **DRL(Deep Reinforcement Learning)**: 심층 신경망을 활용하여 에이전트가 환경과 상호작용하며 최적의 행동 정책을 학습하는 강화 학습 기법
+        - **전문가 정책 제약 알고리즘**: 전문가의 정책을 가이드로 삼아 에이전트의 학습 과정을 제약하거나 보조하여 성능을 향상시키는 알고리즘
+      </details>
 
+- 🧑🏻‍💻 [microsoft] [markitdown](https://github.com/microsoft/markitdown)
+  - MarkItDown: PDF, PowerPoint, Word, Excel 등 다양한 파일 형식을 Markdown으로 변환하는 파이썬 기반 유틸리티
+  - 이미지, 오디오 파일 지원 및 LLM을 활용한 이미지 설명 기능 제공, 여러 파일을 일괄 처리하는 기능 제공
 </details>
 
 ---
