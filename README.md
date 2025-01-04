@@ -77,6 +77,14 @@
       - Anthropic: 워크플로우 방식에 따라 구분
       - LangChain: LLM이 애플리케이션 흐름을 결정하는 시스템
       - OpenAI: 도구와 결합된 루틴
+  - 🧑🏻‍💻 [School of Mechanical Engineering, Beijing Institute of Technology] [Large Language Model guided Deep Reinforcement Learning for Decision Making in Autonomous Driving](https://bitmobility.github.io/LGDRL/)
+    - LGDRL: LLM 기반 심층 강화 학습 프레임워크
+      - LLM이 DRL 학습에 지능적 가이드 제공, 90% 성공률 달성  
+      - 가이드 없이도 안정적인 성능 유지, 실제 적용 가능성 증대
+      - 전문가 정책 제약 알고리즘과 LLM 상호작용으로 성능 및 효율 극대화
+    - [Github](https://github.com/bitmobility/LGDRL)
+    - 📜 [Large Language Model guided Deep Reinforcement Learning for Decision Making in Autonomous Driving](https://arxiv.org/abs/2412.18511)
+
 </details>
 
 ---
