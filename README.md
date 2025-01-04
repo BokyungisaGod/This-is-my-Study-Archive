@@ -71,6 +71,12 @@
   - 🧑🏻‍💻 [루닥스님 tistory] [langgraph-ReAct AgentExecutor in LangGraph](https://rudaks.tistory.com/451)
     - Langchain과 Langgraph를 활용하여 서울 날씨 정보를 얻고 3배수하는 ReAct Agent를 만드는 과정을 설명
     - `TavilySearchResults` tool을 통해 날씨 정보를 가져오고, `triple` tool을 통해 3배수 연산 수행
+
+  - 🧑🏻‍💻 [jungjun hur님 velog] [앤트로픽, OpenAI, LangChain 팀의 LLM 에이전트](https://velog.io/@shangrilar/%EC%95%A4%ED%8A%B8%EB%A1%9C%ED%94%BD-OpenAI-LangChain-%ED%8C%80%EC%9D%98-LLM-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8)
+    - LLM 에이전트의 정의
+      - Anthropic: 워크플로우 방식에 따라 구분
+      - LangChain: LLM이 애플리케이션 흐름을 결정하는 시스템
+      - OpenAI: 도구와 결합된 루틴
 </details>
 
 ---
