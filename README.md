@@ -95,10 +95,15 @@
   - MarkItDown: PDF, PowerPoint, Word, Excel 등 다양한 파일 형식을 Markdown으로 변환하는 파이썬 기반 유틸리티
     - 이미지, 오디오 파일 지원 및 LLM을 활용한 이미지 설명 기능 제공, 여러 파일을 일괄 처리하는 기능 제공
 
-- [Msty] [The easiest way to use local and online AI models](https://msty.app/)
+- 🧑🏻‍💻 [Msty] [The easiest way to use local and online AI models](https://msty.app/)
   - Msty: 로컬 및 온라인 AI 모델을 간편하게 사용할 수 있는 애플리케이션
     - 다양한 모델(Hugging Face, Ollama, Open Router 등)과의 호환성 제공
     - 개인 정보 보호 및 안정성 보장(오프라인 우선 설계), 병렬 대화 기능, 지식 스택 기능
+
+- 🧑🏻‍💻 [sionic-ai] [2024-responsible-ai-in-action-gdsc-example](https://github.com/sionic-ai/2024-responsible-ai-in-action-gdsc-example)
+  - ModernBERT를 활용하여, 사용자 질의에 적합한 LLM을 라우팅하는 300M 크기의 BERT 분류기를 구현하는 실습 과정
+  - [ModernBERT 공식 문서] [Fine-tune classifier with ModernBERT in 2025](https://www.philschmid.de/fine-tune-modern-bert-in-2025)
+  - [HuggingFace 트랜스포머 문서] [Finally, a Replacement for BERT](https://huggingface.co/blog/modernbert)
 </details>
 
 ---
