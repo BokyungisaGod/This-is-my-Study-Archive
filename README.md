@@ -91,31 +91,35 @@
         - **전문가 정책 제약 알고리즘**: 전문가의 정책을 가이드로 삼아 에이전트의 학습 과정을 제약하거나 보조하여 성능을 향상시키는 알고리즘
       </details>
 
-- 🧑🏻‍💻 [microsoft] [markitdown](https://github.com/microsoft/markitdown)
-  - MarkItDown: PDF, PowerPoint, Word, Excel 등 다양한 파일 형식을 Markdown으로 변환하는 파이썬 기반 유틸리티
-    - 이미지, 오디오 파일 지원 및 LLM을 활용한 이미지 설명 기능 제공, 여러 파일을 일괄 처리하는 기능 제공
-
-- 🧑🏻‍💻 [Msty] [The easiest way to use local and online AI models](https://msty.app/)
-  - Msty: 로컬 및 온라인 AI 모델을 간편하게 사용할 수 있는 애플리케이션
-    - 다양한 모델(Hugging Face, Ollama, Open Router 등)과의 호환성 제공
-    - 개인 정보 보호 및 안정성 보장(오프라인 우선 설계), 병렬 대화 기능, 지식 스택 기능
-
-- 🧑🏻‍💻 [sionic-ai] [2024-responsible-ai-in-action-gdsc-example](https://github.com/sionic-ai/2024-responsible-ai-in-action-gdsc-example)
-  - ModernBERT를 활용하여, 사용자 질의에 적합한 LLM을 라우팅하는 300M 크기의 BERT 분류기를 구현하는 실습 과정
-  - [ModernBERT 공식 문서] [Fine-tune classifier with ModernBERT in 2025](https://www.philschmid.de/fine-tune-modern-bert-in-2025)
-  - [HuggingFace 트랜스포머 문서] [Finally, a Replacement for BERT](https://huggingface.co/blog/modernbert)
-
-- 🧑🏻‍💻 [TILNOTE] [Mastering Machine Translation: Understanding the Transformer Model through "Attention Is All You Need"](https://tilnote.io/pages/67749c26ff6e2b1f363b645f)
-  - 순환 및 합성곱 연산 없이 어텐션 메커니즘만을 사용하는 새로운 신경망 아키텍처인 Transformer 모델 제시
-  - 기계 번역에서 뛰어난 성능, 병렬 처리 효율성을 보여줌
-  - 인코더-디코더 구조와 셀프 어텐션 메커니즘을 통해 시퀀스 데이터를 효과적으로 처리, 다양한 NLP 작업(텍스트 요약, 질문응답 등)에 적용 가능
-  - 📜 [Google] [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
-    <details>
-        <summary>중요 개념</summary>
-      
-      - **순환(Recurrent)**: 이전 상태의 출력을 현재 입력과 함께 사용해 시퀀스 데이터를 처리하는 구조, RNN이 대표적
-      - **합성곱(Convolution)**: 입력 데이터의 지역적인 특징을 추출하기 위해 필터를 사용하는 연산, CNN에서 주로 사용
-    </details>
+  - 🧑🏻‍💻 [microsoft] [markitdown](https://github.com/microsoft/markitdown)
+    - MarkItDown: PDF, PowerPoint, Word, Excel 등 다양한 파일 형식을 Markdown으로 변환하는 파이썬 기반 유틸리티
+      - 이미지, 오디오 파일 지원 및 LLM을 활용한 이미지 설명 기능 제공, 여러 파일을 일괄 처리하는 기능 제공
+  
+  - 🧑🏻‍💻 [Msty] [The easiest way to use local and online AI models](https://msty.app/)
+    - Msty: 로컬 및 온라인 AI 모델을 간편하게 사용할 수 있는 애플리케이션
+      - 다양한 모델(Hugging Face, Ollama, Open Router 등)과의 호환성 제공
+      - 개인 정보 보호 및 안정성 보장(오프라인 우선 설계), 병렬 대화 기능, 지식 스택 기능
+  
+  - 🧑🏻‍💻 [sionic-ai] [2024-responsible-ai-in-action-gdsc-example](https://github.com/sionic-ai/2024-responsible-ai-in-action-gdsc-example)
+    - ModernBERT를 활용하여, 사용자 질의에 적합한 LLM을 라우팅하는 300M 크기의 BERT 분류기를 구현하는 실습 과정
+    - [ModernBERT 공식 문서] [Fine-tune classifier with ModernBERT in 2025](https://www.philschmid.de/fine-tune-modern-bert-in-2025)
+    - [HuggingFace 트랜스포머 문서] [Finally, a Replacement for BERT](https://huggingface.co/blog/modernbert)
+  
+  - 🧑🏻‍💻 [TILNOTE] [Mastering Machine Translation: Understanding the Transformer Model through "Attention Is All You Need"](https://tilnote.io/pages/67749c26ff6e2b1f363b645f)
+    - 순환 및 합성곱 연산 없이 어텐션 메커니즘만을 사용하는 새로운 신경망 아키텍처인 Transformer 모델 제시
+    - 기계 번역에서 뛰어난 성능, 병렬 처리 효율성을 보여줌
+    - 인코더-디코더 구조와 셀프 어텐션 메커니즘을 통해 시퀀스 데이터를 효과적으로 처리, 다양한 NLP 작업(텍스트 요약, 질문응답 등)에 적용 가능
+    - 📜 [Google] [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
+      <details>
+          <summary>중요 개념</summary>
+        
+        - **순환(Recurrent)**: 이전 상태의 출력을 현재 입력과 함께 사용해 시퀀스 데이터를 처리하는 구조, RNN이 대표적
+        - **합성곱(Convolution)**: 입력 데이터의 지역적인 특징을 추출하기 위해 필터를 사용하는 연산, CNN에서 주로 사용
+      </details>
+  - 🧑🏻‍💻 [Microsoft] [MEDEC: A BENCHMARK FOR MEDICAL ERROR DETECTION AND CORRECTION IN CLINICAL NOTES](https://arxiv.org/pdf/2412.19260)
+    - LLMs는 의료 질문에 정확히 답하지만, 기존 의료 텍스트의 오류 검증 및 수정 능력에 대한 연구가 부족
+    - MEDEC1: 진단, 관리, 치료 등 5가지 오류 유형을 포함한 최초의 의료 오류 벤치마크
+      - 오류 탐지에서 성과를 보였으나, 여전히 의료 전문가보다는 낮은 성능 → 성능 격차 원인 분석 및 평가 지표 개선 필요
 </details>
 
 ---
