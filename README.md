@@ -116,10 +116,14 @@
         - **순환(Recurrent)**: 이전 상태의 출력을 현재 입력과 함께 사용해 시퀀스 데이터를 처리하는 구조, RNN이 대표적
         - **합성곱(Convolution)**: 입력 데이터의 지역적인 특징을 추출하기 위해 필터를 사용하는 연산, CNN에서 주로 사용
       </details>
-  - 🧑🏻‍💻 [Microsoft] [MEDEC: A BENCHMARK FOR MEDICAL ERROR DETECTION AND CORRECTION IN CLINICAL NOTES](https://arxiv.org/pdf/2412.19260)
+
+  - 🧑🏻‍💻 [Microsoft, Health and Life Sciences AI] [MEDEC: A BENCHMARK FOR MEDICAL ERROR DETECTION AND CORRECTION IN CLINICAL NOTES](https://arxiv.org/pdf/2412.19260)
     - LLMs는 의료 질문에 정확히 답하지만, 기존 의료 텍스트의 오류 검증 및 수정 능력에 대한 연구가 부족
     - MEDEC1: 진단, 관리, 치료 등 5가지 오류 유형을 포함한 최초의 의료 오류 벤치마크
       - 오류 탐지에서 성과를 보였으나, 여전히 의료 전문가보다는 낮은 성능 → 성능 격차 원인 분석 및 평가 지표 개선 필요
+
+  - 🧑🏻‍💻 [Prompt Engineering Guide](https://www.promptingguide.ai/)
+    - LLM을 효과적으로 활용하기 위한 프롬프트 설계와 최적화 방법을 다룬 가이드
 </details>
 
 ---
