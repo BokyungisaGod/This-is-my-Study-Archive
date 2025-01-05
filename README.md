@@ -104,6 +104,18 @@
   - ModernBERT를 활용하여, 사용자 질의에 적합한 LLM을 라우팅하는 300M 크기의 BERT 분류기를 구현하는 실습 과정
   - [ModernBERT 공식 문서] [Fine-tune classifier with ModernBERT in 2025](https://www.philschmid.de/fine-tune-modern-bert-in-2025)
   - [HuggingFace 트랜스포머 문서] [Finally, a Replacement for BERT](https://huggingface.co/blog/modernbert)
+
+- 🧑🏻‍💻 [TILNOTE] [Mastering Machine Translation: Understanding the Transformer Model through "Attention Is All You Need"](https://tilnote.io/pages/67749c26ff6e2b1f363b645f)
+  - 순환 및 합성곱 연산 없이 어텐션 메커니즘만을 사용하는 새로운 신경망 아키텍처인 Transformer 모델 제시
+  - 기계 번역에서 뛰어난 성능, 병렬 처리 효율성을 보여줌
+  - 인코더-디코더 구조와 셀프 어텐션 메커니즘을 통해 시퀀스 데이터를 효과적으로 처리, 다양한 NLP 작업(텍스트 요약, 질문응답 등)에 적용 가능
+  - 📜 [Google] [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
+    <details>
+        <summary>중요 개념</summary>
+      
+      - **순환(Recurrent)**: 이전 상태의 출력을 현재 입력과 함께 사용해 시퀀스 데이터를 처리하는 구조, RNN이 대표적
+      - **합성곱(Convolution)**: 입력 데이터의 지역적인 특징을 추출하기 위해 필터를 사용하는 연산, CNN에서 주로 사용
+    </details>
 </details>
 
 ---
