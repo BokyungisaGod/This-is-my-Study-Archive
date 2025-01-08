@@ -125,7 +125,17 @@
   - 🧑🏻‍💻 [Prompt Engineering Guide](https://www.promptingguide.ai/)
     - LLM을 효과적으로 활용하기 위한 프롬프트 설계와 최적화 방법을 다룬 가이드
 </details>
+<details>
+  <summary>2nd week</summary>
 
+  - 📜 [Department of Computer Science National Chengchi University] [Don’t Do RAG:When Cache-Augmented Generation is All You Need for Knowledge Tasks](https://arxiv.org/abs/2412.15605)
+    - RAG의 문제 → 검색 지연, 문서 선택 오류, 시스템 복잡성 증가
+    - CAG → 긴 문맥 창을 가진 LLM의 특성을 활용해 실시간 검색 없이 사전 로드된 데이터를 사용
+      - 필요한 지식이나 문서를 모델의 문맥 창에 미리 로드하고, 런타임 매개변수를 캐싱하여 검색 단계 제거
+      - 검색 지연과 오류를 없앰 + 문맥 적합성 유지
+      - 일부 벤치마크에서 RAG보다 뛰어난 성능을 보임
+
+</details>
 ---
 <details>
   <summary>My study archive 2024</summary>
