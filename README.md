@@ -138,6 +138,16 @@
     - 정규 표현식(Regex)의 주요 메타 문자(^, $, ., +, ?, *, |, () 등)와 의미, 플래그(g, i, m)의 기능을 설명
     - 특수 메타 문자([], [^], [x-z], \ 뒤의 문자들)의 사용법과 패턴 매칭 예시 알려줌
 
+  - 📜 [Fudan University,Shanghai AI Laboratory][Scaling of Search and Learning: A Roadmap to Reproduce o1 from Reinforcement Learning Perspective](https://arxiv.org/abs/2412.14135)
+    - OpenAI o1: 강력한 추론 능력을 통해 여러 복잡한 과제에서 전문가 수준의 성능을 달성한 인공지능 모델
+      <details>
+          <summary>주요 기술적 기반 → 강화 학습(정책 초기화, 보상 설계, 탐색, 학습)</summary>
+          
+        - 정책 초기화: 인간과 유사한 추론 행동을 학습하여 복잡한 문제 해결 능력 제공
+        - 보상 설계: 탐색과 학습을 위한 효과적인 지침 역할을 하는 보상 신호 제공
+        - 탐색: 훈련과 테스트 단계에서 더 나은 솔루션 생성
+        - 학습: 탐색 데이터를 활용해 성능 개선
+      </details>
 </details>
 
 ---
