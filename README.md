@@ -149,6 +149,22 @@
         - 학습: 탐색 데이터를 활용해 성능 개선
       </details>
 </details>
+<details>
+    <summary>3rd week</summary>
+  
+  - 🧑🏻‍💻 [HuggingFace] [mistralai/Mistral-Small-Instruct-2409](https://huggingface.co/mistralai/Mistral-Small-Instruct-2409)
+    - Mistral-Small-Instruct-2409: 220억 개의 파라미터를 가진 Instruct Fine-Tuning(지시 사항 미세 조정) 버전 언어 모델로, 최대 32k 토큰 길이 처리
+      - 단일 GPU에서 실행하려면 최소 44GB의 GPU 메모리 필요
+      - 사용자 질문에 대한 답변 생성 및 작업 수행에 최적화
+      - vLLM 라이브러리를 사용하여 효율적인 추론 파이프라인을 구축하는 것이 권장됨
+
+  - 📜 [AMD, Johns Hopkins University] [Agent Laboratory: Using LLM Agents as Research Assistants](https://arxiv.org/abs/2501.04227)
+    - Agent Laboratory: LLM 기반 프레임워크로, 문헌 검토, 실험, 보고서 작성 등 전체 연구 과정을 자동으로 처리
+      - 연구 아이디어를 입력하면 연구자가 각 단계에서 피드백과 지침을 제공하며 결과 개선 가능
+      - 연구 비용 → 이전 자율 연구 방법 대비 84% 절감
+      - o1-preview로 구동된 Agent Laboratory가 가장 우수한 연구 결과 생성
+
+</details>
 
 ---
 <details>
