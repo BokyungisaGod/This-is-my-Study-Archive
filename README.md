@@ -200,6 +200,11 @@
     - 기업들은 보안, 가격, 성능, 확장성을 고려해 멀티 모델 전략을 채택하고, RAG 방식과 벡터 데이터베이스 활용이 주류를 이룰 것
     - 생성형 AI는 코딩 지원, 챗봇, 엔터프라이즈 검색 등 다양한 분야에서 활용될 예정
     - 에이전트 기반 시스템과 비용 절감 전략이 중요해지며, 코딩 도우미 시장의 경쟁이 심화될 전망
+   
+  - 🧑🏻‍💻[buriy] [python-readability](https://github.com/buriy/python-readability)
+    - arc90의 Readability 도구를 기반으로 제작된 빠른 Python 포트, 최신 readability.js와 호환되도록 업데이트됨
+    - HTML 문서에서 본문 텍스트와 제목을 추출하고 정리하는 기능 제공
+    - Apache License 2.0 라이선스로 배포, 다양한 버전의 Python 지원, 저자 정보 추가 및 비 ASCII HTML 처리 개선 등 업데이트
 </details>
 
 ---
