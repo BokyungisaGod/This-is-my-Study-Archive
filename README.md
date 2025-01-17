@@ -205,6 +205,13 @@
     - arc90의 Readability 도구를 기반으로 제작된 빠른 Python 포트, 최신 readability.js와 호환되도록 업데이트됨
     - HTML 문서에서 본문 텍스트와 제목을 추출하고 정리하는 기능 제공
     - Apache License 2.0 라이선스로 배포, 다양한 버전의 Python 지원, 저자 정보 추가 및 비 ASCII HTML 처리 개선 등 업데이트
+
+  - 🧑🏻‍💻[NVIDIA] [NVIDIA Puts Grace Blackwell on Every Desk and at Every AI Developer’s Fingertips](https://nvidianews.nvidia.com/news/nvidia-puts-grace-blackwell-on-every-desk-and-at-every-ai-developers-fingertips)
+    - NVIDIA가 개인용 AI 슈퍼컴퓨터인 프로젝트 DIGITS 발표
+    - Grace Blackwell 플랫폼의 성능을 다양한 사람들에게 제공하는 것을 목표로 함
+      - Grace Blackwell 슈퍼칩을 탑재하여 페타프롭의 AI 연산 성능 제공, 대규모 AI 모델의 프로토타이핑, 미세 조정 및 실행 지원
+      - 사용자들은 데스크탑 시스템에서 모델을 개발하고 추론을 실행한 후 클라우드 또는 데이터 센터 인프라에 배포 가능
+
 </details>
 
 ---
