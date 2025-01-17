@@ -158,10 +158,21 @@
       - DeepSeek-V3: 671B 파라미터를 가진 MoE 언어 모델, 각 토큰에 37B 파라미터를 활성화 → 효율적, 비용 효과적인 학습&추론 제공
       - MLA과 DeepSeekMoE 아키텍처 활용, 보조 손실 없이 로드 밸런싱과 멀티 토큰 예측 훈련 목표를 도입
 
-  - 🧑🏻‍💻 [Sionic AI](https://blog.sionic.ai/)
+  - 🧑🏻‍💻 [Sionic AI] [Sionic AI](https://blog.sionic.ai/)
     - Sionic AI에서 제공하는 기술 블로그
       - 기계학습, 딥러닝, 자연어 처리 등 다양한 AI 관련 주제의 글들 제공
       - 주요 내용 → RAG를 활용한 GPT 활용법, BGE-M3 모델 구현, LLM 평가 및 개선 방법, 효과적인 프롬프팅 기법 등 실용적인 AI 기술과 최신 연구 동향
+
+  - 🧑🏻‍💻 [VITA] [VITA-MLLM VITA](https://github.com/VITA-MLLM/VITA)
+    - VITA-1.5: 실시간 시각 및 음성 상호작용에서 GPT-4o 수준을 목표로 하는 다중 모드 대규모 언어 모델
+      - 음성 처리 성능 향상 및 이미지 이해 성능 유지 달성
+      - 이미지, 비디오, 음성 데이터를 포함하는 대규모 데이터셋을 사용하여 훈련됨
+      <details>
+          <summary>VITA-1.5의 훈련</summary>
+        
+        - InternViT-300M-448px, 사전 훈련된 오디오 인코더 등의 요소가 필요
+        - 제공된 `finetuneTaskNeg_qwen_nodes.sh` 스크립트를 사용하여 지속적인 학습 가능
+      </details>
 </details>
 <details>
     <summary>3rd week</summary>
