@@ -231,6 +231,12 @@
       - 기존 모델보다 코드 생성 및 완성 속도 2배 향상
       - 여러 벤치마크에서 최고 성능을 기록, 특히 FIM(fill-in-the-middle) 작업에서 탁월한 성능을 보여줌
       - Continue.dev, VS Code, JetBrains 플러그인 및 Google Cloud, Azure AI Foundry, Amazon Bedrock 등 다양한 IDE 및 플랫폼에서 사용 가능
+  - 🧑🏻‍💻[nlpai-lab] [KULLM](https://github.com/nlpai-lab/KULLM)
+    - KULLM: 고려대학교 NLP & AI 연구실과 HIAI 연구소에서 개발한 한국어 특화 LLM
+      - 최신 버전인 KULLM3을 포함하여 다양한 모델과 데이터셋 제공
+    - KULLM3 → upstage/SOLAR-10.7B-v1.0 기반의 instruction-tuning 모델
+      - 8개의 A100 GPU를 사용하여 학습됨
+    - 🧑🏻‍💻[HuggingFace] [taeminlee/KULLM3-awq](https://huggingface.co/taeminlee/KULLM3-awq)
 </details>
 
 ---
