@@ -77,6 +77,7 @@
       - Anthropic: 워크플로우 방식에 따라 구분
       - LangChain: LLM이 애플리케이션 흐름을 결정하는 시스템
       - OpenAI: 도구와 결합된 루틴
+
   - 🧑🏻‍💻 [School of Mechanical Engineering, Beijing Institute of Technology] [Large Language Model guided Deep Reinforcement Learning for Decision Making in Autonomous Driving](https://bitmobility.github.io/LGDRL/)
     - LGDRL: LLM 기반 심층 강화 학습 프레임워크
       - LLM이 DRL 학습에 지능적 가이드 제공, 90% 성공률 달성  
@@ -148,6 +149,15 @@
         - 탐색: 훈련과 테스트 단계에서 더 나은 솔루션 생성
         - 학습: 탐색 데이터를 활용해 성능 개선
       </details>
+  - 🧑🏻‍💻 [HuggingFace] [unsloth/DeepSeek-V3-GGUF](https://huggingface.co/unsloth/DeepSeek-V3-GGUF)
+    - Unsloth의 DeepSeek-V3-GGUF: Llama 3.3, Gemma 2, Mistral을 최대 5배 빠르게, 메모리 사용량은 70% 줄여 미세 조정하는 오픈소스 모델
+      - 다양한 양자화 버전(2~8bit)과 GGUF 형식을 지원
+      - 다양한 벤치마크(MMLU, HumanEval 등)에서 우수한 성능을 보이며, 특히 수학 및 코드 관련 작업에서 강점
+      - 최대 128K의 컨텍스트 윈도우 지원, DeepSeek 공식 웹사이트(chat.deepseek.com)와 API 플랫폼(platform.deepseek.com)을 통해 채팅 및 API 접근 가능
+    - 📜 [DeepSeek-AI] [DeepSeek-V3 Technical Report](arxiv.org/abs/2412.19437)
+      - DeepSeek-V3: 671B 파라미터를 가진 MoE 언어 모델, 각 토큰에 37B 파라미터를 활성화 → 효율적, 비용 효과적인 학습&추론 제공
+      - MLA과 DeepSeekMoE 아키텍처 활용, 보조 손실 없이 로드 밸런싱과 멀티 토큰 예측 훈련 목표를 도입
+
 </details>
 <details>
     <summary>3rd week</summary>
