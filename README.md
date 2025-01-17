@@ -220,6 +220,11 @@
   - 🧑🏻‍💻[토니의 일기장님 tistory] [AI Agent 구축 - n8n 활용](https://starknotes.tistory.com/161)
     - n8n으로 구축한 AI Agent 워크플로우를 python으로 재현하는 방법 설명
       - (유튜브 자막 추출 → 요약 → 정보 추출 → AI agent → 데이터 병합 → 디스코드/노션 전송)
+     
+  - 🧑🏻‍💻[프롬프트해커 대니님 블로그] [Claude 프롬프트 엔지니어링 완벽 가이드](https://www.magicaiprompts.com/blog/2024/04/21/claude-prompt-engineering-complete-guide)
+    - Claude AI 모델의 잠재력을 극대화하기 위한 프롬프트 엔지니어링 기법을 설명해놓은 가이드
+    - 명확하고 구체적인 프롬프트 작성, 다양한 예시 활용, 역할 부여 등 여러 전략을 제시하여 효과적인 프롬프트 작성법 제시
+      - 명확하고 직접적인 지시, 다양한 예시 활용, 역할 부여, XML 태그 사용, 프롬프트 체이닝, 단계별 사고 유도, 응답 사전 입력, 리라이팅 요청 등
 </details>
 
 ---
