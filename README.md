@@ -173,6 +173,7 @@
         - InternViT-300M-448px, 사전 훈련된 오디오 인코더 등의 요소가 필요
         - 제공된 `finetuneTaskNeg_qwen_nodes.sh` 스크립트를 사용하여 지속적인 학습 가능
       </details>
+    - [Demo Video](https://www.youtube.com/watch?v=tyi6SVFT5mM&ab_channel=BradyFU)
 </details>
 <details>
     <summary>3rd week</summary>
