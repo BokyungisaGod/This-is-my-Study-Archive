@@ -158,6 +158,10 @@
       - DeepSeek-V3: 671B 파라미터를 가진 MoE 언어 모델, 각 토큰에 37B 파라미터를 활성화 → 효율적, 비용 효과적인 학습&추론 제공
       - MLA과 DeepSeekMoE 아키텍처 활용, 보조 손실 없이 로드 밸런싱과 멀티 토큰 예측 훈련 목표를 도입
 
+  - 🧑🏻‍💻 [Sionic AI](https://blog.sionic.ai/)
+    - Sionic AI에서 제공하는 기술 블로그
+      - 기계학습, 딥러닝, 자연어 처리 등 다양한 AI 관련 주제의 글들 제공
+      - 주요 내용 → RAG를 활용한 GPT 활용법, BGE-M3 모델 구현, LLM 평가 및 개선 방법, 효과적인 프롬프팅 기법 등 실용적인 AI 기술과 최신 연구 동향
 </details>
 <details>
     <summary>3rd week</summary>
