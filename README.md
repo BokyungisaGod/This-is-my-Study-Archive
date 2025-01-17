@@ -174,6 +174,11 @@
         - 제공된 `finetuneTaskNeg_qwen_nodes.sh` 스크립트를 사용하여 지속적인 학습 가능
       </details>
     - [Demo Video](https://www.youtube.com/watch?v=tyi6SVFT5mM&ab_channel=BradyFU)
+
+  - 🧑🏻‍💻 [CodeCrafters] [CodeCrafters](https://codecrafters.io/)
+    - CodeCrafters: 실제 프로젝트를 통해 고급 프로그래밍 실력 향상을 돕는 플랫폼
+      - Redis, Git, SQLite 등을 직접 구현하는 과제 제공
+      - 자신의 IDE와 Git을 사용하여 코딩하고 실시간 피드백 받기 가능, 단순한 CRUD 기능이 아닌 실제 동작하는 소프트웨어를 구현하는 과제들 제공
 </details>
 <details>
     <summary>3rd week</summary>
