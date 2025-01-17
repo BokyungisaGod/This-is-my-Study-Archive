@@ -195,48 +195,57 @@
       - 연구 비용 → 이전 자율 연구 방법 대비 84% 절감
       - o1-preview로 구동된 Agent Laboratory가 가장 우수한 연구 결과 생성
 
-  - 🧑🏻‍💻[Channy님 블로그] [2025년 생성형 AI 기술 및 시장 요약](https://channy.creation.net/blog/1905)
+  - 🧑🏻‍💻 [Channy님 블로그] [2025년 생성형 AI 기술 및 시장 요약](https://channy.creation.net/blog/1905)
     - 2025년 생성형 AI 시장 → 중소형 모델 중심으로 전환되며, 오픈소스 모델도 활발히 출시될 전망
     - 기업들은 보안, 가격, 성능, 확장성을 고려해 멀티 모델 전략을 채택하고, RAG 방식과 벡터 데이터베이스 활용이 주류를 이룰 것
     - 생성형 AI는 코딩 지원, 챗봇, 엔터프라이즈 검색 등 다양한 분야에서 활용될 예정
     - 에이전트 기반 시스템과 비용 절감 전략이 중요해지며, 코딩 도우미 시장의 경쟁이 심화될 전망
    
-  - 🧑🏻‍💻[buriy] [python-readability](https://github.com/buriy/python-readability)
+  - 🧑🏻‍💻 [buriy] [python-readability](https://github.com/buriy/python-readability)
     - arc90의 Readability 도구를 기반으로 제작된 빠른 Python 포트, 최신 readability.js와 호환되도록 업데이트됨
     - HTML 문서에서 본문 텍스트와 제목을 추출하고 정리하는 기능 제공
     - Apache License 2.0 라이선스로 배포, 다양한 버전의 Python 지원, 저자 정보 추가 및 비 ASCII HTML 처리 개선 등 업데이트
 
-  - 🧑🏻‍💻[NVIDIA] [NVIDIA Puts Grace Blackwell on Every Desk and at Every AI Developer’s Fingertips](https://nvidianews.nvidia.com/news/nvidia-puts-grace-blackwell-on-every-desk-and-at-every-ai-developers-fingertips)
+  - 🧑🏻‍💻 [NVIDIA] [NVIDIA Puts Grace Blackwell on Every Desk and at Every AI Developer’s Fingertips](https://nvidianews.nvidia.com/news/nvidia-puts-grace-blackwell-on-every-desk-and-at-every-ai-developers-fingertips)
     - NVIDIA가 개인용 AI 슈퍼컴퓨터인 프로젝트 DIGITS 발표
     - Grace Blackwell 플랫폼의 성능을 다양한 사람들에게 제공하는 것을 목표로 함
       - Grace Blackwell 슈퍼칩을 탑재하여 페타프롭의 AI 연산 성능 제공, 대규모 AI 모델의 프로토타이핑, 미세 조정 및 실행 지원
       - 사용자들은 데스크탑 시스템에서 모델을 개발하고 추론을 실행한 후 클라우드 또는 데이터 센터 인프라에 배포 가능
 
-  - 🧑🏻‍💻[Sinaptik-AI] [pandas-ai](https://github.com/Sinaptik-AI/pandas-ai)
+  - 🧑🏻‍💻 [Sinaptik-AI] [pandas-ai](https://github.com/Sinaptik-AI/pandas-ai)
     - PandasAI: 자연어로 데이터 질문을 쉽게 처리하는 파이썬 플랫폼
       - Jupyter Notebook, Streamlit 앱 또는 FastAPI, Flask와 같은 REST API로 배포 가능, Docker 기반 클라이언트-서버 아키텍처를 사용하여 설치 및 실행 용이
       - 데이터 프레임을 사용하여 질문하고 답변 얻는 방법 제공
 
-  - 🧑🏻‍💻[토니의 일기장님 tistory] [AI Agent 구축 - n8n 활용](https://starknotes.tistory.com/161)
+  - 🧑🏻‍💻 [토니의 일기장님 tistory] [AI Agent 구축 - n8n 활용](https://starknotes.tistory.com/161)
     - n8n으로 구축한 AI Agent 워크플로우를 python으로 재현하는 방법 설명
       - (유튜브 자막 추출 → 요약 → 정보 추출 → AI agent → 데이터 병합 → 디스코드/노션 전송)
      
-  - 🧑🏻‍💻[프롬프트해커 대니님 블로그] [Claude 프롬프트 엔지니어링 완벽 가이드](https://www.magicaiprompts.com/blog/2024/04/21/claude-prompt-engineering-complete-guide)
+  - 🧑🏻‍💻 [프롬프트해커 대니님 블로그] [Claude 프롬프트 엔지니어링 완벽 가이드](https://www.magicaiprompts.com/blog/2024/04/21/claude-prompt-engineering-complete-guide)
     - Claude AI 모델의 잠재력을 극대화하기 위한 프롬프트 엔지니어링 기법을 설명해놓은 가이드
     - 명확하고 구체적인 프롬프트 작성, 다양한 예시 활용, 역할 부여 등 여러 전략을 제시하여 효과적인 프롬프트 작성법 제시
       - 명확하고 직접적인 지시, 다양한 예시 활용, 역할 부여, XML 태그 사용, 프롬프트 체이닝, 단계별 사고 유도, 응답 사전 입력, 리라이팅 요청 등
 
-  - 🧑🏻‍💻[Mistral AI] [Codestral 25.01](https://mistral.ai/news/codestral-2501/)
+  - 🧑🏻‍💻 [Mistral AI] [Codestral 25.01](https://mistral.ai/news/codestral-2501/)
     - Mistral AI → 코드 생성 모델 Codestral 25.01을 출시
       - 기존 모델보다 코드 생성 및 완성 속도 2배 향상
       - 여러 벤치마크에서 최고 성능을 기록, 특히 FIM(fill-in-the-middle) 작업에서 탁월한 성능을 보여줌
       - Continue.dev, VS Code, JetBrains 플러그인 및 Google Cloud, Azure AI Foundry, Amazon Bedrock 등 다양한 IDE 및 플랫폼에서 사용 가능
-  - 🧑🏻‍💻[nlpai-lab] [KULLM](https://github.com/nlpai-lab/KULLM)
+  - 🧑🏻‍💻 [nlpai-lab] [KULLM](https://github.com/nlpai-lab/KULLM)
     - KULLM: 고려대학교 NLP & AI 연구실과 HIAI 연구소에서 개발한 한국어 특화 LLM
       - 최신 버전인 KULLM3을 포함하여 다양한 모델과 데이터셋 제공
     - KULLM3 → upstage/SOLAR-10.7B-v1.0 기반의 instruction-tuning 모델
       - 8개의 A100 GPU를 사용하여 학습됨
-    - 🧑🏻‍💻[HuggingFace] [taeminlee/KULLM3-awq](https://huggingface.co/taeminlee/KULLM3-awq)
+    - 🧑🏻‍💻 [HuggingFace] [taeminlee/KULLM3-awq](https://huggingface.co/taeminlee/KULLM3-awq)
+
+  - 🧑🏻‍💻 [HuggingFace] [microsoft/phi-4](https://huggingface.co/microsoft/phi-4)
+    - phi-4: Microsoft에서 개발한 140억 파라미터의 LLM
+      - 합성 데이터셋, 필터링된 공개 도메인 웹사이트 데이터, 학술 서적 및 Q&A 데이터셋을 결합하여 훈련, 고품질 데이터와 고급 추론에 중점
+      - Supervised Fine-Tuning(SFT) 및 Direct Preference Optimization(DPO)을 통해 정확한 지시 사항 준수 및 강력한 안전 조치 보장
+      - MMLU, GPQA, MGSM 등 여러 벤치마크에서 우수한 성능
+      - 챗 형식 프롬프트에 최적화, transformers 라이브러리를 사용하여 이용 가능
+      - 영어 이외 언어의 성능 저하, 오류 발생 가능성, 고위험 시나리오 사용 시 추가적인 안전 조치 필요
+    - 📜 [Microsoft Research] [Phi-4 Technical Report](https://arxiv.org/abs/2412.08905)
 </details>
 
 ---
