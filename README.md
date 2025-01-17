@@ -225,6 +225,12 @@
     - Claude AI 모델의 잠재력을 극대화하기 위한 프롬프트 엔지니어링 기법을 설명해놓은 가이드
     - 명확하고 구체적인 프롬프트 작성, 다양한 예시 활용, 역할 부여 등 여러 전략을 제시하여 효과적인 프롬프트 작성법 제시
       - 명확하고 직접적인 지시, 다양한 예시 활용, 역할 부여, XML 태그 사용, 프롬프트 체이닝, 단계별 사고 유도, 응답 사전 입력, 리라이팅 요청 등
+
+  - 🧑🏻‍💻[Mistral AI] [Codestral 25.01](https://mistral.ai/news/codestral-2501/)
+    - Mistral AI → 코드 생성 모델 Codestral 25.01을 출시
+      - 기존 모델보다 코드 생성 및 완성 속도 2배 향상
+      - 여러 벤치마크에서 최고 성능을 기록, 특히 FIM(fill-in-the-middle) 작업에서 탁월한 성능을 보여줌
+      - Continue.dev, VS Code, JetBrains 플러그인 및 Google Cloud, Azure AI Foundry, Amazon Bedrock 등 다양한 IDE 및 플랫폼에서 사용 가능
 </details>
 
 ---
