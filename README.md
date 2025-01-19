@@ -246,6 +246,12 @@
       - 챗 형식 프롬프트에 최적화, transformers 라이브러리를 사용하여 이용 가능
       - 영어 이외 언어의 성능 저하, 오류 발생 가능성, 고위험 시나리오 사용 시 추가적인 안전 조치 필요
     - 📜 [Microsoft Research] [Phi-4 Technical Report](https://arxiv.org/abs/2412.08905)
+
+  - 🧑🏻‍💻 [HarderThenHarder] [RLLoggingBoard](https://github.com/HarderThenHarder/RLLoggingBoard)
+    - RLHF(Reinforcement Learning from Human Feedback) 훈련 과정을 시각화하여 훈련 과정 이해 및 디버깅을 용이하게 함
+    - 토큰 확률 변화, 보상 분포 변화 등을 시각적으로 보여줌
+    - 주요 시각화 모듈 → 보상 영역(곡선 및 분포), 응답 영역(다양한 지표 기준 정렬), 토큰 영역(KL, 임계값, 밀집 보상, 확률)으로 구성
+    - 각 영역별 지표를 통해 훈련 문제점을 파악하고 해결하는 데 도움
 </details>
 
 ---
