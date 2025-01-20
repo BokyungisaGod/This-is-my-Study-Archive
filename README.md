@@ -266,6 +266,10 @@
       - 사람의 '최근 효과/초두 효과'와 유사
     - 중간에 있는 관련 정보는 성능이 현저히 저하되며, 특히 여러 문서에서 정보를 추출해야 하는 경우 더욱 심각해짐
     - LLM의 언어 처리 방식에 대한 이해와 프롬프트 디자인 개선을 통해 AI 시스템의 정보 추출 능력을 향상시킬 수 있다고 제안
+
+  - 🧑🏻‍💻 [researchtrend] [Stay Updated on the Trends, Connect with AI Researchers](https://researchtrend.ai/)
+    - AI 연구 동향을 제공하고 연구자들 간의 연결을 돕는 플랫폼
+    - AI 관련 논문(arXiv)과 커뮤니티, 소셜 이벤트 정보 제공, 가격 정책 등 확인 가능
 </details>
 
 ---
