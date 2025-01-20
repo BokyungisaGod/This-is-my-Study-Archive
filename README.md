@@ -257,7 +257,15 @@
     - Titans: 트랜스포머의 한계를 극복하기 위해 설계된 새로운 신경망 아키텍처, 단기 및 장기 메모리를 결합해 긴 문맥 처리와 효율성을 향상시킴
     - 장기 메모리 모듈(중요 데이터 선택/기억), 하이브리드 메모리 구조(Core, Long-term, Persistent), 최대 200만 토큰 처리 가능
     - 기존 모델 대비 낮은 perplexity, 뛰어난 긴 문맥 정보 검색 성능, 타임 시계열 및 유전체 데이터 분야에서 우수한 확장성
+</details>
+<details>
+  <summary>4th week</summary>
 
+  - 🧑🏻‍💻 [the decoder] [Large Language Models and the Lost Middle Phenomenon](https://the-decoder.com/large-language-models-and-the-lost-middle-phenomenon/)
+    - 스탠포드, UC 버클리, 사마야 AI 연구진 → LLM이 입력 정보의 처음과 끝에 있는 정보를 가장 잘 처리한다는 것을 발견
+      - 사람의 '최근 효과/초두 효과'와 유사
+    - 중간에 있는 관련 정보는 성능이 현저히 저하되며, 특히 여러 문서에서 정보를 추출해야 하는 경우 더욱 심각해짐
+    - LLM의 언어 처리 방식에 대한 이해와 프롬프트 디자인 개선을 통해 AI 시스템의 정보 추출 능력을 향상시킬 수 있다고 제안
 </details>
 
 ---
