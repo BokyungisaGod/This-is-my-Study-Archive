@@ -278,7 +278,7 @@
   - 📜 [Microsoft Research Asia] [rStar-Math: Small LLMs Can Master Math Reasoning
 with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
     - rStar-Math: sLM도 OpenAI o1 수준의 수학 추론 성능을 구현할 수 있음을 보여줌
-    - 몬테카를로 트리 탐색(MCTS)을 활용하여 테스트 시 "깊은 사고"를 수행하며, 정책 SLM과 과정 보상 모델(PPM)을 훈련
+    - 몬테카를로 트리 탐색(MCTS)을 활용하여 테스트 시 "deep thinking"을 수행하며, 정책 SLM과 과정 보상 모델(PPM)을 훈련
       <details>
           <summary>주요 혁신</summary>
         
@@ -287,6 +287,16 @@ with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
         - 자체 진화를 통한 반복적 성능 향상
       </details>
     - MATH 벤치마크에서 Qwen2.5-Math-7B와 Phi3-mini-3.8B의 성능을 향상시키고, 미국 수학 올림피아드(AIME) 문제에서 상위 20% 수준의 성과 기록
+
+  - 🧑🏻‍💻 [HuggingFace] [deepseek-ai/DeepSeek-R1-Distill-Llama-70B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B)
+    - DeepSeek-R1: 강화학습(RL) 기반의 추론 모델로, 사전 지도 학습(SFT) 없이도 뛰어난 추론 능력을 보여줌
+      - 추론 패턴을 증류(distillation)하여 소형 모델에서도 우수한 성능을 구현
+    - DeepSeek-R1-Zero → RL만으로 강력한 추론 패턴을 발견, 하지만 반복성과 가독성 문제를 겪음
+      - 이를 보완하기 위해 SFT 단계를 추가한 것
+    - OpenAI의 o1 모델과 비교 가능한 성능을 보이며 수학, 코딩, 추론 과제에서 우수한 결과를 달성
+    - Llama 및 Qwen 기반의 6가지 소형 모델(DeepSeek-R1-Distill 시리즈)을 공개하여, 다양한 벤치마크에서 최첨단 성능 기록
+
+  - 🧑🏻‍💻 [HuggingFace] 
 </details>
 
 ---
