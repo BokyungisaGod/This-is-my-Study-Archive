@@ -270,6 +270,10 @@
   - 🧑🏻‍💻 [researchtrend] [Stay Updated on the Trends, Connect with AI Researchers](https://researchtrend.ai/)
     - AI 연구 동향을 제공하고 연구자들 간의 연결을 돕는 플랫폼
     - AI 관련 논문(arXiv)과 커뮤니티, 소셜 이벤트 정보 제공, 가격 정책 등 확인 가능
+
+  - 🧑🏻‍💻 [HuggingFace] [JEJUMA/JEJUMA-002](https://huggingface.co/JEJUMA/JEJUMA-002)
+    - JEJUMA-002: 한국의 지역 방언 보존을 위해, 제주어를 포함한 다양한 지역 방언 데이터를 활용하여 Llama 3.1 기반으로 만든 언어 모델
+      - 약 500만 개의 지역 방언-표준어 쌍 데이터를 기반으로, 방언과 표준어 간 변환 및 방언 감지 등 4가지 작업을 수행할 수 있도록 모델을 학습시킴
 </details>
 
 ---
