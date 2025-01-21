@@ -295,8 +295,8 @@ with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
       - 이를 보완하기 위해 SFT 단계를 추가한 것
     - OpenAI의 o1 모델과 비교 가능한 성능을 보이며 수학, 코딩, 추론 과제에서 우수한 결과를 달성
     - Llama 및 Qwen 기반의 6가지 소형 모델(DeepSeek-R1-Distill 시리즈)을 공개하여, 다양한 벤치마크에서 최첨단 성능 기록
-
-  - 🧑🏻‍💻 [HuggingFace] 
+    - 🧑🏻‍💻 [HuggingFace] [deepseek-ai/DeepSeek-R1-Zero](https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero)
+    - 🧑🏻‍💻 [HuggingFace] [deepseek-ai/DeepSeek-R1-Distill-Qwen-7B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)
 </details>
 
 ---
