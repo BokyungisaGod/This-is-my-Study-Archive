@@ -274,6 +274,19 @@
   - 🧑🏻‍💻 [HuggingFace] [JEJUMA/JEJUMA-002](https://huggingface.co/JEJUMA/JEJUMA-002)
     - JEJUMA-002: 한국의 지역 방언 보존을 위해, 제주어를 포함한 다양한 지역 방언 데이터를 활용하여 Llama 3.1 기반으로 만든 언어 모델
       - 약 500만 개의 지역 방언-표준어 쌍 데이터를 기반으로, 방언과 표준어 간 변환 및 방언 감지 등 4가지 작업을 수행할 수 있도록 모델을 학습시킴
+
+  - 📜 [Microsoft Research Asia] [rStar-Math: Small LLMs Can Master Math Reasoning
+with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
+    - rStar-Math: sLM도 OpenAI o1 수준의 수학 추론 성능을 구현할 수 있음을 보여줌
+    - 몬테카를로 트리 탐색(MCTS)을 활용하여 테스트 시 "깊은 사고"를 수행하며, 정책 SLM과 과정 보상 모델(PPM)을 훈련
+      <details>
+          <summary>주요 혁신</summary>
+        
+        - 코드 증강 CoT 데이터 생성
+        - 효과적인 과정 선호 모델 학습
+        - 자체 진화를 통한 반복적 성능 향상
+      </details>
+    - MATH 벤치마크에서 Qwen2.5-Math-7B와 Phi3-mini-3.8B의 성능을 향상시키고, 미국 수학 올림피아드(AIME) 문제에서 상위 20% 수준의 성과 기록
 </details>
 
 ---
