@@ -297,6 +297,19 @@ with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
     - Llama 및 Qwen 기반의 6가지 소형 모델(DeepSeek-R1-Distill 시리즈)을 공개하여, 다양한 벤치마크에서 최첨단 성능 기록
     - 🧑🏻‍💻 [HuggingFace] [deepseek-ai/DeepSeek-R1-Zero](https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero)
     - 🧑🏻‍💻 [HuggingFace] [deepseek-ai/DeepSeek-R1-Distill-Qwen-7B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)
+   
+  - 📜 [NLP Lab] [Foundations of Large Language Models](https://arxiv.org/abs/2501.09223)
+    - LLM은 대규모 언어 모델링을 통해 세상과 언어에 대한 지식을 습득하며, 다양한 문제를 해결할 수 있는 범용 모델을 가능케 함
+    - 많은 라벨 데이터를 사용한 특화 시스템 학습에서 사전 학습 기반의 기반 모델 생성, 이후 미세 조정 및 프롬프팅으로 전환됨
+      <details>
+          <summary>내용 요약</summary>
+        
+        - 1장: 사전 학습의 기초, 방법론 및 모델 아키텍처
+        - 2장: 생성 모델, 학습 확장 및 긴 텍스트 처리
+        - 3장: 프롬프팅 전략, CoT(chain-of-thought), 자동 프롬프트 설계
+        - 4장: 인간 피드백 기반 정렬 및 지시 미세 조정
+      </details>
+  
 </details>
 
 ---
