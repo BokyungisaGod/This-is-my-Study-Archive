@@ -309,7 +309,27 @@ with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
         - 3장: 프롬프팅 전략, CoT(chain-of-thought), 자동 프롬프트 설계
         - 4장: 인간 피드백 기반 정렬 및 지시 미세 조정
       </details>
-  
+</details>
+<details>
+    <summary>5th week</summary>
+
+  - 📜 [Google DeepMind] [Evolving Deeper LLM Thinking](https://arxiv.org/abs/2501.09891)
+    - Mind Evolution: LLM의 추론 시간을 활용해 문제 해결 능력을 높이는 유전적 탐색 전략, 자유로운 탐색과 반복적 세부 개선을 결합하여 더 나은 해답 도출
+    <details>
+        <summary>기존 접근과의 차별점</summary>
+      
+      - Best-of-N처럼 독립적인 후보 생성만이 아닌 광범위한 탐색 및 세부 개선 병행
+      - 단계별 평가가 필요한 Self-Refinement나 Tree Search와 달리 전체 솔루션의 글로벌 평가를 기반으로 작동
+      - 문제의 형식화 없이도 자연어 기반 문제 해결 가능
+    </details>
+    <details>
+        <summary>적용 사례</summary>
+      
+      - TravelPlanner와 Natural Plan 같은 자연어 기반 문제에서 높은 성공률 달성
+      - 새로운 벤치마크인 StegPoet에서 숨겨진 메시지를 포함한 텍스트 생성 과제 수행, 87% 성공률 기록
+    </details>
+
+</details>
 </details>
 
 ---
