@@ -327,6 +327,12 @@ with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
       
       - TravelPlanner와 Natural Plan 같은 자연어 기반 문제에서 높은 성공률 달성
       - 새로운 벤치마크인 StegPoet에서 숨겨진 메시지를 포함한 텍스트 생성 과제 수행, 87% 성공률 기록
+
+  - 🧑🏻‍💻 [OpenRouter] [DeepSeek: DeepSeek R1](https://openrouter.ai/deepseek/deepseek-r1)
+    - OpenRouter: AI 기반의 채팅 플랫폼으로, 다양한 주제에 대해 대화할 수 있도록 지원
+    - DeepSeek R1: OpenAI의 모델과 비슷한 성능을 가진 오픈소스 LLM
+    - OpenRouter API를 통해 DeepSeek R1 사용 가능, OpenAI SDK 또는 직접 API 호출을 통해 접근 가능
+      - 사용자의 웹사이트 정보를 추가하여 OpenRouter 리더보드에 표시될 수 있음
     </details>
 
 </details>
