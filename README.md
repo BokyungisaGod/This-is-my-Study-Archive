@@ -333,6 +333,12 @@ with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
     - DeepSeek R1: OpenAI의 모델과 비슷한 성능을 가진 오픈소스 LLM
     - OpenRouter API를 통해 DeepSeek R1 사용 가능, OpenAI SDK 또는 직접 API 호출을 통해 접근 가능
       - 사용자의 웹사이트 정보를 추가하여 OpenRouter 리더보드에 표시될 수 있음
+     
+  - 🧑🏻‍💻 [HuggingFace] [knowledgator/modern-gliner-bi-large-v1.0](https://huggingface.co/knowledgator/modern-gliner-bi-large-v1.0)
+    - knowledgator/modern-gliner-bi-large-v1.0: 다양한 개체 유형을 인식하는 NER(Named Entity Recognition) 모델로, 기존 NER 모델이나 LLM보다 효율적이고 비용 효과적
+    - ModernBERT를 기반으로 하여 최대 8,192 토큰의 긴 문장 처리 가능, 다양한 데이터셋에서 평균 49.7%의 정확도 기록
+    - 양방향 인코더 아키텍처를 사용하여 동시에 여러 개체 인식 가능
+    - 미리 처리된 개체 임베딩을 사용하면 추론 속도를 높일 수 있음
     </details>
 
 </details>
