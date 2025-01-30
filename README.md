@@ -339,6 +339,17 @@ with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
     - ModernBERT를 기반으로 하여 최대 8,192 토큰의 긴 문장 처리 가능, 다양한 데이터셋에서 평균 49.7%의 정확도 기록
     - 양방향 인코더 아키텍처를 사용하여 동시에 여러 개체 인식 가능
     - 미리 처리된 개체 임베딩을 사용하면 추론 속도를 높일 수 있음
+
+  - 📜 [Truthful AI] [TELL ME ABOUT YOURSELF: LLMS ARE AWARE OF THEIR LEARNED BEHAVIORS](https://arxiv.org/abs/2501.11120)
+    - Behavioral Self-Awareness: LLM이 자신의 행동을 스스로 설명할 수 있는 능력, 맥락 내 예시 없이도 특정 행동을 인식하고 표현할 수 있음
+      <details>
+          <summary>실험 내용</summary>
+
+        - 고위험 경제 결정 및 취약한 코드 작성과 같은 특정 행동을 학습한 모델이 자신의 행동을 직접 설명
+        - 백도어 정책을 가진 모델이 트리거 없이도 백도어 존재 여부를 일부 인식 가능하지만, 기본적으로 트리거 자체를 직접 출력하지는 않음
+      </details>
+
+    - [GitHub](https://github.com/XuchanBao/behavioral-self-awareness)
     </details>
 
 </details>
