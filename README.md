@@ -350,7 +350,12 @@ with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
       </details>
 
     - [GitHub](https://github.com/XuchanBao/behavioral-self-awareness)
-    </details>
+
+  - 🧑🏻‍💻 [HuggingFace] [mistralai/Mistral-Small-24B-Instruct-2501](https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501)
+    - Mistral-Small-24B-Instruct-2501: 240억 개의 매개변수를 가진 소형 언어 모델로, 700억 개 미만 매개변수 모델 중 최고 성능을 자랑함
+        - 다국어 지원
+        - 에이전트 중심 기능: 네이티브 함수 호출 및 JSON 출력 같은 고급 에이전트 기능 제공
+        - 고급 추론 능력: 최첨단 대화 및 추론 능력
 
 </details>
 </details>
