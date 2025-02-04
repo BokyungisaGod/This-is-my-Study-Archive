@@ -6,6 +6,17 @@
 ---
 # My study archive 2025
 
+## ☃️ February
+<details>
+    <summary>1st week</summary>
+
+  - 🧑🏻‍💻 [셀위댄스님 블로그] [DeepSeek-R1: 강화학습으로 LLM 추론 역량을 늘린 모델](https://m.blog.naver.com/economic_moat/223732988544)
+    - DeepSeek → 사전 학습 없이 순수 강화학습으로 훈련된 추론 모델 DeepSeek-R1-Zero와, 이를 개선한 DeepSeek-R1 공개
+      - 기존 강화학습의 비효율성을 해결하기 위해 그룹 상대 정책 최적화(GRPO) 기법을 도입하여 연산 자원 절감
+      - DeepSeek-R1의 추론 능력을 소형 모델에 증류하는 기술 선보임
+    - DeepSeek-R1-Zero → OpenAI-o1-0912 수준, DeepSeek-R1 → OpenAI-o1(1217) 수준의 추론 성능 달성
+</details>
+
 ## 🎉 January
 <details>
   <summary>1st week</summary>
@@ -356,7 +367,6 @@ with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
         - 다국어 지원
         - 에이전트 중심 기능: 네이티브 함수 호출 및 JSON 출력 같은 고급 에이전트 기능 제공
         - 고급 추론 능력: 최첨단 대화 및 추론 능력
-
 </details>
 </details>
 
