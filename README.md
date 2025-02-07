@@ -20,6 +20,11 @@
       - 명확한 프롬프트("python으로 네이버 뉴스 제목 크롤링")를 통해 LLM이 실제 작동하는 코드를 생성, 개발자가 직접 검증까지 완료한 과정을 보여줌
       - LLM이 제공한 코드는 에러 처리 및 중복 제거 등 실무에 필요한 요소들을 포함하여 바로 활용 가능한 수준이었으며, LLM 활용의 중요성을 강조
       - 효과적인 LLM 활용을 위해서는 구체적인 목표 설정, 단계적 접근, 실행 및 검증, 피드백 루프 구축 등의 과정이 필수적임
+  - 🗞️ [AI TIMES] [Ai2, '딥시크-V3' 능가하는 오픈 소스 405B LLM 공개..."사후 훈련에 중점"](https://www.aitimes.com/news/articleView.html?idxno=167571)
+      - Ai2가 4050억 매개변수의 오픈소스 LLM ‘튈루 3 405B’를 공개
+        - 기존 최대 규모 오픈소스 모델인 ‘딥시크-V3’를 능가하는 성능
+      - '튈루 3 405B'는 사후 훈련에 중점을 둠
+        - 특히 ‘검증 가능한 보상을 통한 강화 학습(RLVR)’ 기법을 적용하여 안전성과 추론 능력 향상
 </details>
 
 ## 🎉 January
@@ -677,7 +682,7 @@ with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
       - 자연어 prefix-prompting 관련 메타 분석 제시
     </details>
 
-- 🗞️ [Google] [구글, 텍스트 프롬프트 없이 이미지 생성하는 '위스크' 공개](https://www.aitimes.com/news/articleView.html?idxno=166297)
+- 🗞️ [Google] [구글, 텍스트 프롬프트 없이 이미지 생성하는 '위스크' 공개](https://www..com/news/articleView.html?idxno=166297)
   - 위스크(Whisk) → Google이 공개한 이미지 생성 AI
     <details>
           <summary>작동 방식</summary>
