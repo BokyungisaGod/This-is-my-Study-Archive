@@ -26,6 +26,15 @@
       - '튈루 3 405B'는 사후 훈련에 중점을 둠
         - 특히 ‘검증 가능한 보상을 통한 강화 학습(RLVR)’ 기법을 적용하여 안전성과 추론 능력 향상
 </details>
+<details>
+    <summary>2nd week</summary>
+    
+  - 🧑🏻‍💻 [builder.io] [Figma to Code with Windsurf and Visual Copilot](https://www.builder.io/blog/figma-to-windsurf)
+    - Visual Copilot 2.0과 Windsurf의 통합 → Figma 디자인을 실제 코드로 변환하는 시간을 절반으로 단축해줌
+    - AI 기반 도구 활용 → Figma 디자인을 React, Vue, Svelte 등 다양한 프레임워크의 코드로 실시간 변환
+    - Windsurf의 AI 기능(Cascade, Chat, Codeium Command)을 통해 코드를 수정하고 개선, 실시간으로 코드와 상호작용하여 프로젝트에 통합할 수 있게 해줌
+    - Auto Layout과 Cascade Memories 활용을 통해 더욱 효율적인 작업 가능
+</details>
 
 ## 🎉 January
 <details>
